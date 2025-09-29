@@ -26,13 +26,14 @@ Expected dataset format (SQuAD-like):
 import os
 import sys
 import json
-from typing import List, Tuple
+from typing import List, Tuple, Optional
 
 import pandas as pd
 import numpy as np
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from difflib import SequenceMatcher
 
 # Optional preprocessing via NLTK
 try:
@@ -79,6 +80,7 @@ class Preprocessor:
     """Tokenize, remove stopwords, and lemmatize text for IR.
 
     Uses NLTK if available; otherwise falls back to simple rules.
+    Includes fitness-specific synonym mapping for better matching.
     """
 
     def __init__(self) -> None:
@@ -97,12 +99,33 @@ class Preprocessor:
                 "for", "to", "with", "that", "this", "it", "as", "be"
             ])
             self.lemmatizer = None
+        
+        # Fitness-specific synonym mapping
+        self.synonyms = {
+            "workout": ["exercise", "training", "gym", "fitness"],
+            "protein": ["whey", "casein", "amino"],
+            "muscle": ["muscles", "muscular"],
+            "cardio": ["cardiovascular", "aerobic", "running", "jogging"],
+            "weight": ["weights", "lifting", "strength"],
+            "supplement": ["supplements", "supplementation"],
+            "diet": ["nutrition", "eating", "food"],
+            "calorie": ["calories", "energy"],
+            "fat": ["bodyfat", "body fat"],
+            "carb": ["carbs", "carbohydrate", "carbohydrates"],
+            "rep": ["reps", "repetition", "repetitions"],
+            "set": ["sets"],
+            "routine": ["program", "plan", "schedule"]
+        }
 
     def preprocess(self, text: str) -> str:
         if not isinstance(text, str):
             return ""
         text = text.lower()
         text = "".join(ch if ch.isalnum() or ch.isspace() else " " for ch in text)
+        
+        # Apply synonym expansion
+        text = self._expand_synonyms(text)
+        
         if self.use_nltk:
             try:
                 tokens = word_tokenize(text)  # type: ignore
@@ -116,6 +139,28 @@ class Preprocessor:
         else:
             tokens = [t for t in text.split() if t not in self.stopwords]
             return " ".join(tokens)
+    
+    def _expand_synonyms(self, text: str) -> str:
+        """Expand synonyms in the text to improve matching."""
+        words = text.split()
+        expanded_words = []
+        
+        for word in words:
+            # Check if word has synonyms
+            word_synonyms = []
+            for key, synonyms in self.synonyms.items():
+                if word in synonyms:
+                    word_synonyms.extend(synonyms)
+                    break
+                elif word == key:
+                    word_synonyms.extend(synonyms)
+                    break
+            
+            # Add original word and its synonyms
+            expanded_words.append(word)
+            expanded_words.extend(word_synonyms)
+        
+        return " ".join(expanded_words)
 
 
 # --------------------------- IR Model --------------------------------
@@ -137,22 +182,95 @@ class FAQIR:
         self.vectorizer = TfidfVectorizer(max_features=TFIDF_MAX_FEATURES)
         self.tfidf_matrix = self.vectorizer.fit_transform(self.processed_questions)
 
-    def search(self, query: str, top_n: int = 5) -> List[Tuple[int, float, str, str]]:
+    def search(self, query: str, top_n: int = 5, fallback_threshold: float = 0.0) -> List[Tuple[int, float, str, str]]:
         """Search the indexed Q&A and return top_n results.
+
+        Args:
+            query: Search query string
+            top_n: Maximum number of results to return
+            fallback_threshold: Minimum score threshold for results (0.0 = return all, including zero scores)
 
         Returns a list of tuples: (index, score, question, answer)
         """
         if not query:
             return []
+        
         processed_query = self.preprocessor.preprocess(query)
         query_vec = self.vectorizer.transform([processed_query])
         scores = cosine_similarity(query_vec, self.tfidf_matrix).flatten()
         ranked_idx = np.argsort(scores)[::-1][:top_n]
+        
+        # Use fallback_threshold instead of hardcoded > 0
         results = [
             (int(i), float(scores[i]), self.raw_questions[i], self.raw_answers[i])
-            for i in ranked_idx if scores[i] > 0
+            for i in ranked_idx if scores[i] > fallback_threshold
         ]
+        
+        # If no results found and fallback_threshold is 0, try fuzzy matching
+        if not results and fallback_threshold == 0.0:
+            return self._fuzzy_search(query, top_n)
+        
         return results
+    
+    def _fuzzy_search(self, query: str, top_n: int = 5) -> List[Tuple[int, float, str, str]]:
+        """Fallback fuzzy search when TF-IDF finds no matches."""
+        query_lower = query.lower()
+        query_words = set(query_lower.split())
+        
+        # Calculate fuzzy similarity for each document
+        doc_scores = []
+        for i, (question, answer) in enumerate(zip(self.raw_questions, self.raw_answers)):
+            # Combine question and answer for matching
+            doc_text = f"{question} {answer}".lower()
+            doc_words = set(doc_text.split())
+            
+            # Calculate word overlap score
+            word_overlap = len(query_words.intersection(doc_words))
+            if word_overlap == 0:
+                continue
+                
+            # Calculate string similarity for partial matches
+            similarity = max(
+                SequenceMatcher(None, query_lower, question.lower()).ratio(),
+                SequenceMatcher(None, query_lower, answer.lower()).ratio()
+            )
+            
+            # Combined score: word overlap + string similarity
+            combined_score = (word_overlap / len(query_words)) * 0.7 + similarity * 0.3
+            doc_scores.append((i, combined_score, question, answer))
+        
+        # Sort by combined score and return top results
+        doc_scores.sort(key=lambda x: x[1], reverse=True)
+        return doc_scores[:top_n]
+    
+    def suggest_similar_keywords(self, query: str, top_n: int = 5) -> List[str]:
+        """Suggest similar keywords from the vocabulary when query has no matches."""
+        if not query:
+            return []
+        
+        query_words = set(query.lower().split())
+        vocabulary = self.vectorizer.get_feature_names_out()
+        
+        suggestions = []
+        for word in query_words:
+            # Find similar words in vocabulary
+            for vocab_word in vocabulary:
+                similarity = SequenceMatcher(None, word, vocab_word).ratio()
+                if similarity > 0.6:  # Threshold for similarity
+                    suggestions.append((vocab_word, similarity))
+        
+        # Sort by similarity and return unique suggestions
+        suggestions.sort(key=lambda x: x[1], reverse=True)
+        unique_suggestions = []
+        seen = set()
+        for word, score in suggestions:
+            if word not in seen:
+                unique_suggestions.append(word)
+                seen.add(word)
+                if len(unique_suggestions) >= top_n:
+                    break
+        
+        return unique_suggestions
 
     def explain(self, query: str, doc_idx: int, top_k_terms: int = 5) -> List[Tuple[str, float]]:
         """Return contribution of top terms from the vectorizer for a specific document.
@@ -262,10 +380,43 @@ def run_streamlit_app(ir_system: FAQIR) -> None:
     query = st.text_input("Type your query here", value="whey protein isolate")
 
     if st.button("Search") and query:
-        results = ir_system.search(query, top_n=top_k)
+        # First try normal search with threshold
+        results = ir_system.search(query, top_n=top_k, fallback_threshold=0.01)
+        
         if not results:
-            st.warning("No matching FAQs found. Try a different query or check preprocessing settings.")
+            # Try with fuzzy search (threshold = 0.0)
+            st.info("🔍 No exact matches found. Trying fuzzy search...")
+            results = ir_system.search(query, top_n=top_k, fallback_threshold=0.0)
+            
+            if not results:
+                # Still no results - show suggestions
+                st.warning("❌ No matching FAQs found for your query.")
+                
+                # Show keyword suggestions
+                suggestions = ir_system.suggest_similar_keywords(query, top_n=5)
+                if suggestions:
+                    st.markdown("**💡 Did you mean one of these keywords?**")
+                    suggestion_cols = st.columns(len(suggestions))
+                    for i, suggestion in enumerate(suggestions):
+                        with suggestion_cols[i]:
+                            if st.button(f"🔍 {suggestion}", key=f"suggest_{suggestion}"):
+                                st.session_state.query = suggestion
+                                st.experimental_rerun()
+                
+                # Show some random FAQs as suggestions
+                st.markdown("**📚 Here are some popular fitness topics:**")
+                import random
+                sample_indices = random.sample(range(len(ir_system.raw_questions)), min(5, len(ir_system.raw_questions)))
+                for i, idx in enumerate(sample_indices):
+                    with st.expander(f"💪 {ir_system.raw_questions[idx][:50]}..."):
+                        st.write(ir_system.raw_answers[idx])
+            else:
+                st.info("🔍 Found some related results using fuzzy matching:")
         else:
+            st.success(f"✅ Found {len(results)} results")
+            
+        # Display results if any found
+        if results:
             for rank, (idx, score, q_text, a_text) in enumerate(results, start=1):
                 st.subheader(f"{rank}. {q_text} (score: {score:.4f})")
                 st.write(a_text)
@@ -319,10 +470,23 @@ def main() -> None:
                 break
             if not q:
                 break
-            res = ir_system.search(q, top_n=5)
+            
+            # Try normal search first
+            res = ir_system.search(q, top_n=5, fallback_threshold=0.01)
             if not res:
-                print("No results.\n")
+                print("No exact matches found. Trying fuzzy search...")
+                res = ir_system.search(q, top_n=5, fallback_threshold=0.0)
+                
+            if not res:
+                print("No results found.")
+                # Show keyword suggestions
+                suggestions = ir_system.suggest_similar_keywords(q, top_n=3)
+                if suggestions:
+                    print(f"Did you mean: {', '.join(suggestions)}?")
+                print()
                 continue
+                
+            print(f"Found {len(res)} results:\n")
             for idx, score, q_text, a_text in res:
                 print(f"[{idx}] ({score:.4f}) {q_text}\n-> {a_text}\n")
         return
