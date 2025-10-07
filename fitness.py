@@ -100,21 +100,22 @@ class Preprocessor:
             ])
             self.lemmatizer = None
         
-        # Fitness-specific synonym mapping
+        # Fitness-specific synonym mapping for basic fitness concepts
         self.synonyms = {
-            "workout": ["exercise", "training", "gym", "fitness"],
-            "protein": ["whey", "casein", "amino"],
-            "muscle": ["muscles", "muscular"],
-            "cardio": ["cardiovascular", "aerobic", "running", "jogging"],
-            "weight": ["weights", "lifting", "strength"],
-            "supplement": ["supplements", "supplementation"],
-            "diet": ["nutrition", "eating", "food"],
-            "calorie": ["calories", "energy"],
-            "fat": ["bodyfat", "body fat"],
-            "carb": ["carbs", "carbohydrate", "carbohydrates"],
-            "rep": ["reps", "repetition", "repetitions"],
-            "set": ["sets"],
-            "routine": ["program", "plan", "schedule"]
+            "fitness": ["physical fitness", "health", "wellness", "exercise"],
+            "exercise": ["workout", "training", "physical activity", "fitness"],
+            "cardio": ["cardiovascular", "aerobic", "endurance", "heart"],
+            "strength": ["muscular strength", "power", "force", "weight"],
+            "endurance": ["stamina", "cardiovascular endurance", "muscular endurance"],
+            "flexibility": ["stretching", "range of motion", "mobility"],
+            "body": ["body composition", "physical", "physique"],
+            "muscle": ["muscles", "muscular", "muscle group"],
+            "aerobic": ["cardio", "cardiovascular", "endurance"],
+            "anaerobic": ["strength", "power", "intensity"],
+            "hiit": ["high intensity interval training", "interval training"],
+            "health": ["wellness", "fitness", "well-being"],
+            "training": ["exercise", "workout", "practice"],
+            "physical": ["fitness", "body", "bodily"]
         }
 
     def preprocess(self, text: str) -> str:
@@ -318,30 +319,39 @@ def simple_evaluate(ir_system: FAQIR, sample_queries: List[Tuple[str, List[int]]
 # --------------------------- Loading Data -----------------------------
 
 def load_fitness_data(json_path: str) -> Tuple[List[str], List[str]]:
-    """Load SQuAD-like fitness JSON and return parallel lists of questions and answers."""
+    """Load fitness Q&A JSON and return parallel lists of questions and answers."""
     if not os.path.exists(json_path):
         print(f"JSON file not found at {json_path}. Please update DATASET_PATH at the top of the script.")
         sys.exit(1)
     with open(json_path, "r", encoding="utf-8") as f:
-        payload = json.load(f)
+        data = json.load(f)
 
-    data = payload.get("data", [])
     questions: List[str] = []
     answers: List[str] = []
 
-    for entry in data:
-        paragraphs = entry.get("paragraphs", [])
-        for para in paragraphs:
-            qas = para.get("qas", [])
-            for qa in qas:
-                q_text = str(qa.get("question", ""))
-                ans_list = qa.get("answers", [])
-                a_text = ""
-                if isinstance(ans_list, list) and len(ans_list) > 0:
-                    # take first provided answer text
-                    a_text = str(ans_list[0].get("text", ""))
-                questions.append(q_text)
-                answers.append(a_text)
+    # Handle both old SQuAD format and new simple format
+    if isinstance(data, dict) and "data" in data:
+        # Old SQuAD-like format
+        for entry in data["data"]:
+            paragraphs = entry.get("paragraphs", [])
+            for para in paragraphs:
+                qas = para.get("qas", [])
+                for qa in qas:
+                    q_text = str(qa.get("question", ""))
+                    ans_list = qa.get("answers", [])
+                    a_text = ""
+                    if isinstance(ans_list, list) and len(ans_list) > 0:
+                        a_text = str(ans_list[0].get("text", ""))
+                    questions.append(q_text)
+                    answers.append(a_text)
+    elif isinstance(data, list):
+        # New simple format: [{"question": "...", "answer": "..."}, ...]
+        for item in data:
+            if isinstance(item, dict) and "question" in item and "answer" in item:
+                questions.append(str(item["question"]))
+                answers.append(str(item["answer"]))
+    else:
+        raise ValueError("Unsupported JSON format in fitness_dataset.json")
 
     # Remove empty pairs if any
     cleaned = [(q, a) for q, a in zip(questions, answers) if isinstance(q, str) and isinstance(a, str) and (q.strip() or a.strip())]
