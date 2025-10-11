@@ -1,934 +1,990 @@
 [
   {
-    "question": "What is physical fitness?",
-    "answer": "Physical fitness is a state of health and well-being and, more specifically, the ability to perform aspects of sports, occupations, and daily activities without undue fatigue."
+    "question": "What is the definition of physical fitness?",
+    "answer": "Physical fitness is a state of health and well-being that allows an individual to perform aspects of sports, occupations, and daily activities efficiently. It is generally achieved through proper nutrition, moderate-to-vigorous physical exercise, and sufficient rest."
   },
   {
-    "question": "What are the five main components of physical fitness?",
-    "answer": "The five main components are cardiovascular endurance, muscular strength, muscular endurance, flexibility, and body composition."
+    "question": "What are the five primary components of physical fitness?",
+    "answer": "The five main components of health-related physical fitness are cardiovascular endurance, muscular strength, muscular endurance, flexibility, and body composition."
   },
   {
-    "question": "What is cardiovascular endurance?",
-    "answer": "Cardiovascular endurance is the ability of the heart, lungs, and blood vessels to deliver oxygen to your body tissues during sustained physical activity."
+    "question": "Explain cardiovascular endurance.",
+    "answer": "Cardiovascular endurance is the ability of the heart, lungs, and blood vessels to deliver oxygenated blood to the working muscles during sustained physical activity. It is often referred to as aerobic fitness."
   },
   {
-    "question": "Define muscular strength.",
-    "answer": "Muscular strength is the maximum amount of force that a muscle can exert against some form of resistance in a single effort."
+    "question": "What is muscular strength?",
+    "answer": "Muscular strength is the maximum amount of force a muscle or muscle group can exert in a single effort. It is typically measured by the one-rep max (1RM) in exercises like the bench press or squat."
   },
   {
     "question": "What is muscular endurance?",
-    "answer": "Muscular endurance is the ability of a muscle or group of muscles to sustain repeated contractions against a resistance for an extended period of time."
+    "answer": "Muscular endurance is the ability of a muscle or muscle group to perform repeated contractions against a resistance for an extended period. Activities like holding a plank or performing high-rep sets of push-ups test muscular endurance."
   },
   {
-    "question": "Explain flexibility in fitness.",
-    "answer": "Flexibility is the range of motion in a joint or group of joints, or the ability to move joints effectively through a complete range of motion."
+    "question": "Define flexibility in the context of fitness.",
+    "answer": "Flexibility is the ability of a joint or series of joints to move through an unrestricted, pain-free range of motion. It can be improved through stretching exercises like static stretching and dynamic stretching."
   },
   {
-    "question": "What does body composition mean?",
-    "answer": "Body composition refers to the percentage of fat, bone, water, and muscle in human bodies. It's a more accurate indicator of health than weight alone."
+    "question": "What is body composition?",
+    "answer": "Body composition refers to the proportion of fat mass and fat-free mass (muscle, bone, and water) in the body. It is a more accurate indicator of health than Body Mass Index (BMI) alone."
   },
   {
-    "question": "What is aerobic exercise?",
-    "answer": "Aerobic exercise, also known as cardio, is any type of cardiovascular conditioning that gets your heart rate up and keeps it up for a prolonged period."
-  },
-  {
-    "question": "Give examples of aerobic exercises.",
-    "answer": "Examples of aerobic exercises include brisk walking, running, swimming, cycling, dancing, and jumping jacks."
-  },
-  {
-    "question": "What is anaerobic exercise?",
-    "answer": "Anaerobic exercise involves short, fast, high-intensity exercises that don't make your body use oxygen like it does in cardio. It breaks down glucose for energy without using oxygen."
-  },
-  {
-    "question": "Provide examples of anaerobic exercises.",
-    "answer": "Examples of anaerobic exercises include heavy weightlifting, sprinting, and High-Intensity Interval Training (HIIT)."
-  },
-  {
-    "question": "What is HIIT?",
-    "answer": "HIIT stands for High-Intensity Interval Training. It involves short bursts of intense exercise alternated with low-intensity recovery periods."
-  },
-  {
-    "question": "What are the benefits of HIIT?",
-    "answer": "Benefits of HIIT include being highly time-efficient, burning a lot of calories in a short time, improving metabolic rate for hours after exercise, and enhancing overall cardiovascular health."
-  },
-  {
-    "question": "What is strength training?",
-    "answer": "Strength training, or resistance training, is a type of physical exercise specializing in the use of resistance to induce muscular contraction, which builds the strength, anaerobic endurance, and size of skeletal muscles."
-  },
-  {
-    "question": "Why is strength training important?",
-    "answer": "Strength training is important for increasing muscle mass, strengthening bones, improving joint flexibility, helping with weight management, and enhancing overall metabolism."
-  },
-  {
-    "question": "What is the difference between compound and isolation exercises?",
-    "answer": "Compound exercises work multiple muscle groups across multiple joints at the same time (e.g., squats, deadlifts). Isolation exercises target a single muscle group (e.g., bicep curls, leg extensions)."
-  },
-  {
-    "question": "What are 'reps' and 'sets' in weightlifting?",
-    "answer": "A 'rep' (repetition) is one full completion of an exercise movement. A 'set' is a group of consecutive repetitions performed without resting."
-  },
-  {
-    "question": "How many reps should I do for muscle growth?",
-    "answer": "For muscle hypertrophy (growth), the general recommendation is to perform 8-12 repetitions per set with a challenging weight."
-  },
-  {
-    "question": "How many reps are best for building strength?",
-    "answer": "For building maximal strength, it is generally recommended to perform 1-6 repetitions per set with a very heavy weight."
-  },
-  {
-    "question": "What is progressive overload?",
-    "answer": "Progressive overload is the principle of gradually increasing the stress placed upon the musculoskeletal and nervous system to continually make fitness gains. This can be done by increasing weight, reps, or sets."
-  },
-  {
-    "question": "Why is proper form important in exercise?",
-    "answer": "Proper form is crucial for targeting the correct muscles, maximizing results, and most importantly, preventing injuries."
-  },
-  {
-    "question": "What is a warm-up and why is it necessary?",
-    "answer": "A warm-up is a set of light exercises and stretches performed before a workout. It's necessary to increase blood flow to the muscles, raise your core body temperature, and reduce the risk of injury."
-  },
-  {
-    "question": "What should a warm-up consist of?",
-    "answer": "A good warm-up should consist of 5-10 minutes of light cardio (like jogging or cycling) followed by dynamic stretches that mimic the movements of the upcoming workout."
-  },
-  {
-    "question": "What is a cool-down?",
-    "answer": "A cool-down is a period of light activity and stretching performed after a workout to allow the heart rate and breathing to return to their resting levels gradually."
-  },
-  {
-    "question": "Why is a cool-down important?",
-    "answer": "A cool-down helps regulate blood flow, reduces muscle soreness and stiffness, and promotes relaxation after intense physical activity."
-  },
-  {
-    "question": "What is DOMS?",
-    "answer": "DOMS stands for Delayed Onset Muscle Soreness. It is the pain and stiffness felt in muscles several hours to days after unaccustomed or strenuous exercise."
-  },
-  {
-    "question": "How can I relieve DOMS?",
-    "answer": "To relieve DOMS, you can try light stretching, foam rolling, massage, getting adequate rest, staying hydrated, and consuming protein to aid muscle repair."
-  },
-  {
-    "question": "What is the importance of rest and recovery?",
-    "answer": "Rest and recovery are critical for muscle repair, growth, and strength building. Without adequate rest, you risk overtraining, which can lead to injury and decreased performance."
-  },
-  {
-    "question": "How much sleep is recommended for active individuals?",
-    "answer": "Active individuals often require more sleep than sedentary people. The general recommendation is 7-9 hours of quality sleep per night for optimal recovery and performance."
-  },
-  {
-    "question": "What is overtraining?",
-    "answer": "Overtraining occurs when the body is pushed beyond its capacity to recover. Symptoms include chronic fatigue, decreased performance, mood disturbances, and an increased risk of injury."
-  },
-  {
-    "question": "What are macronutrients?",
-    "answer": "Macronutrients are the three main types of nutrients the body needs in large amounts: carbohydrates, proteins, and fats."
-  },
-  {
-    "question": "What is the role of protein in fitness?",
-    "answer": "Protein is essential for building and repairing tissues, including muscles. It's crucial for muscle recovery and growth after a workout."
-  },
-  {
-    "question": "What are good sources of protein?",
-    "answer": "Good sources of protein include lean meats, poultry, fish, eggs, dairy products, legumes, tofu, and protein supplements like whey or casein."
-  },
-  {
-    "question": "What is the function of carbohydrates?",
-    "answer": "Carbohydrates are the body's primary source of energy. They fuel your workouts and replenish glycogen stores in your muscles and liver after exercise."
-  },
-  {
-    "question": "What is the difference between simple and complex carbohydrates?",
-    "answer": "Simple carbs (sugars) are quickly digested and provide a rapid burst of energy. Complex carbs (starches and fibers) take longer to digest, providing a more sustained release of energy."
-  },
-  {
-    "question": "Why are fats important in a diet?",
-    "answer": "Fats are essential for hormone production, vitamin absorption (vitamins A, D, E, K), and providing a concentrated source of energy. Healthy fats also support brain health and reduce inflammation."
-  },
-  {
-    "question": "What are some sources of healthy fats?",
-    "answer": "Sources of healthy fats include avocados, nuts, seeds, olive oil, and fatty fish like salmon and mackerel."
-  },
-  {
-    "question": "Why is hydration important for exercise?",
-    "answer": "Hydration is vital for regulating body temperature, lubricating joints, transporting nutrients, and maintaining blood pressure. Dehydration can severely impair performance and health."
-  },
-  {
-    "question": "How much water should I drink per day?",
-    "answer": "A general guideline is to drink about 2-3 liters (8-12 cups) of water per day, but this can vary based on activity level, climate, and individual needs."
-  },
-  {
-    "question": "What are electrolytes and why are they important?",
-    "answer": "Electrolytes are minerals like sodium, potassium, and magnesium that are lost through sweat. They are important for maintaining fluid balance, muscle function, and nerve signaling."
-  },
-  {
-    "question": "What should I eat before a workout?",
-    "answer": "A pre-workout meal, eaten 1-3 hours before exercise, should primarily consist of carbohydrates for energy and a moderate amount of protein."
-  },
-  {
-    "question": "What should I eat after a workout?",
-    "answer": "A post-workout meal should be consumed within an hour or two of finishing. It should contain a good amount of protein to repair muscles and carbohydrates to replenish energy stores."
-  },
-  {
-    "question": "What is creatine?",
-    "answer": "Creatine is a natural substance that turns into creatine phosphate in the body. It helps make ATP, which provides energy for muscle contractions, especially during high-intensity, short-duration exercises like lifting weights or sprinting."
-  },
-  {
-    "question": "Is creatine safe to take?",
-    "answer": "Creatine is one of the most well-researched supplements and is generally considered safe for most healthy adults when taken at recommended dosages."
-  },
-  {
-    "question": "What is whey protein?",
-    "answer": "Whey protein is a high-quality, fast-digesting protein derived from milk during the cheese-making process. It's commonly used by athletes to support muscle recovery and growth."
-  },
-  {
-    "question": "What is the difference between whey concentrate and isolate?",
-    "answer": "Whey isolate undergoes more processing than whey concentrate, resulting in a higher protein content with less lactose and fat. Isolate is a good option for those with lactose intolerance."
-  },
-  {
-    "question": "What is bodyweight training?",
-    "answer": "Bodyweight training is a form of strength training that uses an individual's own weight to provide resistance against gravity."
-  },
-  {
-    "question": "What are the advantages of bodyweight exercises?",
-    "answer": "The main advantages are that they require minimal to no equipment, can be done anywhere, and are great for building functional, real-world strength and stability."
-  },
-  {
-    "question": "What are some common bodyweight exercises?",
-    "answer": "Common bodyweight exercises include push-ups, pull-ups, squats, lunges, planks, and crunches."
-  },
-  {
-    "question": "What is a plank?",
-    "answer": "A plank is an isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time."
-  },
-  {
-    "question": "Which muscles does a plank work?",
-    "answer": "The plank primarily works the core muscles, including the rectus abdominis and obliques, but it also engages the shoulders, back, and glutes."
-  },
-  {
-    "question": "How do you perform a proper squat?",
-    "answer": "To perform a squat, stand with feet shoulder-width apart, keep your chest up and back straight, and lower your hips as if sitting in a chair until your thighs are parallel to the floor, then push back up."
-  },
-  {
-    "question": "What is a deadlift?",
-    "answer": "A deadlift is a compound weightlifting exercise where a loaded barbell or bar is lifted off the floor to the level of the hips, then lowered back to the ground."
-  },
-  {
-    "question": "Why is the deadlift considered a fundamental exercise?",
-    "answer": "The deadlift is fundamental because it works a large number of muscles, including the back, glutes, hamstrings, and core, and is highly effective for building overall strength and power."
-  },
-  {
-    "question": "What is a bench press?",
-    "answer": "The bench press is an upper-body strength training exercise that consists of pressing a weight upwards from a supine position."
-  },
-  {
-    "question": "What muscles does the bench press target?",
-    "answer": "The bench press primarily targets the pectoral muscles (chest), with assistance from the anterior deltoids (front shoulders) and triceps."
-  },
-  {
-    "question": "What is flexibility training?",
-    "answer": "Flexibility training involves exercises and stretches designed to improve the elasticity of muscles and the range of motion of joints."
-  },
-  {
-    "question": "What is static stretching?",
-    "answer": "Static stretching involves holding a stretch in a challenging but comfortable position for a period of time, typically between 15 and 60 seconds."
-  },
-  {
-    "question": "When is the best time to do static stretching?",
-    "answer": "The best time for static stretching is after a workout when your muscles are warm and pliable. Stretching cold muscles can increase the risk of injury."
-  },
-  {
-    "question": "What is dynamic stretching?",
-    "answer": "Dynamic stretching involves active movements where joints and muscles go through a full range of motion. It is used to prepare the body for exercise."
-  },
-  {
-    "question": "Give examples of dynamic stretches.",
-    "answer": "Examples include leg swings, arm circles, torso twists, and walking lunges."
-  },
-  {
-    "question": "What is yoga?",
-    "answer": "Yoga is a mind and body practice with a 5,000-year history in ancient Indian philosophy. Various styles of yoga combine physical postures, breathing techniques, and meditation or relaxation."
-  },
-  {
-    "question": "What are the fitness benefits of yoga?",
-    "answer": "Yoga improves flexibility, balance, and strength. It can also help reduce stress, improve mental clarity, and enhance overall well-being."
-  },
-  {
-    "question": "What is Pilates?",
-    "answer": "Pilates is a low-impact exercise method that aims to strengthen muscles while improving postural alignment and flexibility. It focuses heavily on core strength."
-  },
-  {
-    "question": "What is the difference between yoga and Pilates?",
-    "answer": "While both improve flexibility and strength, Pilates focuses more on core strength and spinal alignment with controlled movements. Yoga often incorporates a spiritual and meditative component with static poses and fluid transitions."
-  },
-  {
-    "question": "What is a 'workout split'?",
-    "answer": "A workout split is a schedule that divides training sessions by body part or movement type over the course of a week. Examples include upper/lower splits or a push/pull/legs split."
-  },
-  {
-    "question": "What is a full-body workout?",
-    "answer": "A full-body workout is a training session that targets all major muscle groups in a single session."
-  },
-  {
-    "question": "What is a push-pull-legs split?",
-    "answer": "It's a popular 3-day workout split. 'Push' day targets chest, shoulders, and triceps. 'Pull' day targets back and biceps. 'Legs' day targets quads, hamstrings, and calves."
+    "question": "What are the skill-related components of fitness?",
+    "answer": "The six skill-related components of fitness are agility, balance, coordination, power, reaction time, and speed. These are particularly important for athletic performance."
   },
   {
     "question": "What is the FITT principle?",
-    "answer": "The FITT principle is a guideline for creating an effective workout plan. It stands for Frequency (how often), Intensity (how hard), Time (how long), and Type (what kind of exercise)."
+    "answer": "The FITT principle is a guideline for creating an effective workout plan. It stands for Frequency (how often you exercise), Intensity (how hard you exercise), Time (how long you exercise), and Type (what kind of exercise you do)."
   },
   {
-    "question": "What is body mass index (BMI)?",
-    "answer": "BMI is a measure that uses your height and weight to work out if your weight is healthy. The calculation is your weight in kilograms divided by the square of your height in meters ($BMI = kg/m^2$)."
+    "question": "What is the principle of progressive overload?",
+    "answer": "Progressive overload is the fundamental principle of strength training and fitness that states that in order to improve, you must continually increase the demands placed on your body. This can be done by increasing weight, volume, or intensity."
   },
   {
-    "question": "Is BMI an accurate measure of health?",
-    "answer": "BMI can be a useful screening tool for the general population, but it's not always accurate because it doesn't distinguish between fat and muscle mass. A muscular person could have a high BMI and be very healthy."
+    "question": "What is the principle of specificity?",
+    "answer": "The principle of specificity states that the physiological adaptations to exercise are specific to the type of exercise performed. For example, to become a better swimmer, you must swim; running will not provide the same specific benefits."
   },
   {
-    "question": "What is the difference between weight loss and fat loss?",
-    "answer": "Weight loss refers to a decrease in overall body weight, which can include muscle, water, and fat. Fat loss specifically refers to a reduction in body fat, which is generally the healthier goal."
+    "question": "What are the general health benefits of regular exercise?",
+    "answer": "Regular exercise provides numerous health benefits, including improved cardiovascular health, weight management, stronger bones and muscles, enhanced mental health and mood, reduced risk of chronic diseases, and better sleep quality."
   },
   {
-    "question": "How many calories are in a pound of fat?",
-    "answer": "One pound of body fat is estimated to contain approximately 3,500 calories."
+    "question": "What is the difference between physical activity and exercise?",
+    "answer": "Physical activity is any bodily movement produced by skeletal muscles that results in energy expenditure. Exercise is a subcategory of physical activity that is planned, structured, repetitive, and purposeful."
   },
   {
-    "question": "What is a calorie deficit?",
-    "answer": "A calorie deficit is when you consume fewer calories than your body expends. This is the fundamental requirement for weight loss."
+    "question": "What is aerobic exercise?",
+    "answer": "Aerobic exercise, or cardio, is any form of physical activity that uses aerobic metabolism. It involves large muscle groups and is maintained for a prolonged period, raising your heart rate and breathing. Examples include running, swimming, and cycling."
   },
   {
-    "question": "What is basal metabolic rate (BMR)?",
-    "answer": "BMR is the number of calories your body needs to accomplish its most basic, life-sustaining functions, such as breathing, circulation, and cell production, while at rest."
+    "question": "What is anaerobic exercise?",
+    "answer": "Anaerobic exercise involves brief, intense bursts of physical activity where the body's demand for oxygen exceeds the oxygen supply available. Examples include heavy weightlifting, sprinting, and HIIT."
   },
   {
-    "question": "What is TDEE?",
-    "answer": "TDEE stands for Total Daily Energy Expenditure. It is the total number of calories you burn in a 24-hour period, including your BMR and the calories burned through physical activity and digestion."
+    "question": "Why is a warm-up important before a workout?",
+    "answer": "A warm-up is important because it prepares your body for more strenuous activity. It gradually increases your heart rate, blood flow to the muscles, and core body temperature, which can help prevent injury and improve performance."
   },
   {
-    "question": "What is the mind-muscle connection?",
-    "answer": "The mind-muscle connection is the conscious and deliberate focus on contracting a specific muscle during an exercise to improve its activation and engagement."
+    "question": "What should a proper warm-up consist of?",
+    "answer": "A proper warm-up should consist of 5-10 minutes of light cardio (like jogging) to raise your heart rate, followed by dynamic stretching that mimics the movements of your planned workout (e.g., leg swings, arm circles)."
   },
   {
-    "question": "Why is consistency important in fitness?",
-    "answer": "Consistency is key because fitness gains are made through cumulative effort over time. Sporadic workouts do not provide the regular stimulus needed for the body to adapt and improve."
+    "question": "Why is a cool-down important after a workout?",
+    "answer": "A cool-down helps your body gradually transition from a state of exertion back to a state of rest. It allows your heart rate and breathing to return to normal slowly, helps prevent dizziness, and can reduce muscle soreness."
   },
   {
-    "question": "What is functional fitness?",
-    "answer": "Functional fitness exercises train your muscles to work together and prepare them for daily tasks by simulating common movements you might do at home, at work, or in sports."
+    "question": "What should a proper cool-down consist of?",
+    "answer": "A proper cool-down should involve 5-10 minutes of light activity, such as walking, followed by static stretching, where you hold each stretch for 15-30 seconds to improve flexibility."
   },
   {
-    "question": "What is cross-training?",
-    "answer": "Cross-training is the practice of engaging in two or more types of exercise in order to improve fitness in your main sport. For example, a runner might swim or cycle to improve cardiovascular fitness without the impact of running."
+    "question": "What is dynamic stretching?",
+    "answer": "Dynamic stretching involves active movements where your joints and muscles go through a full range of motion. It is used to warm up the body before exercise. Examples include high knees, butt kicks, and torso twists."
   },
   {
-    "question": "What is steady-state cardio?",
-    "answer": "Steady-state cardio is any form of aerobic exercise that is performed at a continuous, steady pace for an extended period, typically 30 minutes or more."
+    "question": "What is static stretching?",
+    "answer": "Static stretching involves holding a stretch in a fixed position for a period of time, typically 15-60 seconds. It is most effective for improving flexibility when performed after a workout when muscles are warm."
   },
   {
-    "question": "Which is better for fat loss: HIIT or steady-state cardio?",
-    "answer": "Both are effective. HIIT is more time-efficient and can boost metabolism for hours afterward (EPOC effect), while steady-state cardio is less intense and can be sustained for longer periods."
+    "question": "What is High-Intensity Interval Training (HIIT)?",
+    "answer": "HIIT is a training protocol involving short bursts of intense anaerobic exercise alternated with brief, low-intensity recovery periods. A HIIT workout is typically much shorter than a traditional cardio session but can be more effective for fat loss and improving cardiovascular fitness."
   },
   {
-    "question": "What is core training?",
-    "answer": "Core training focuses on strengthening the muscles in your abdomen, lower back, and pelvis. A strong core is essential for stability, balance, and preventing injuries."
-  },
-  {
-    "question": "What are some effective core exercises besides crunches?",
-    "answer": "Effective core exercises include planks, bird-dog, dead bug, Russian twists, and leg raises."
-  },
-  {
-    "question": "What is RPE in exercise?",
-    "answer": "RPE stands for Rate of Perceived Exertion. It is a subjective scale, often from 1 to 10, used to measure the intensity of your exercise based on how hard you feel you are working."
-  },
-  {
-    "question": "What is the talk test?",
-    "answer": "The talk test is a simple way to measure moderate-intensity activity. If you can talk, but not sing, during the activity, you are working at a moderate intensity."
-  },
-  {
-    "question": "How can I stay motivated to work out?",
-    "answer": "To stay motivated, you can set clear and realistic goals, find an activity you enjoy, work out with a partner, track your progress, and reward yourself for achieving milestones."
-  },
-  {
-    "question": "What is a 'plateau' in fitness?",
-    "answer": "A plateau is a period when your progress, whether it's weight loss or strength gain, stalls despite continuing your training and diet regimen."
-  },
-  {
-    "question": "How can I break through a fitness plateau?",
-    "answer": "To break a plateau, you can change your workout routine (e.g., new exercises, different intensity), adjust your diet, ensure you are getting enough rest, or take a short break (a 'deload' week)."
-  },
-  {
-    "question": "What is a deload week?",
-    "answer": "A deload week is a planned period of recovery where you reduce the intensity and volume of your training to give your body and mind a break, which can help prevent overtraining and break through plateaus."
-  },
-  {
-    "question": "What is the RICE method for injuries?",
-    "answer": "RICE is an acronym for a common first-aid treatment for soft tissue injuries like sprains. It stands for Rest, Ice, Compression, and Elevation."
-  },
-  {
-    "question": "Is it okay to exercise when I'm sick?",
-    "answer": "A general rule is the 'neck check'. If your symptoms are above the neck (runny nose, sore throat), light exercise is likely okay. If you have symptoms below the neck (chest congestion, fever, body aches), you should rest."
-  },
-  {
-    "question": "What is the importance of a training log?",
-    "answer": "A training log helps you track your workouts, including exercises, weights, sets, and reps. It allows you to monitor your progress, ensure you are applying progressive overload, and stay motivated."
-  },
-  {
-    "question": "What are plyometrics?",
-    "answer": "Plyometrics, also known as jump training, are exercises in which muscles exert maximum force in short intervals of time, with the goal of increasing power (speed-strength). Examples include box jumps and burpees."
-  },
-  {
-    "question": "What are the benefits of foam rolling?",
-    "answer": "Foam rolling, or self-myofascial release, can help relieve muscle tightness, soreness, and inflammation, and increase your joint range of motion."
-  },
-  {
-    "question": "What is circuit training?",
-    "answer": "Circuit training is a form of body conditioning that involves endurance training, resistance training, and high-intensity aerobics performed in a 'circuit,' with short rest periods between exercises."
-  },
-  {
-    "question": "What is the valsalva maneuver?",
-    "answer": "The Valsalva maneuver is a breathing technique used during heavy lifts. It involves forcefully exhaling against a closed glottis, which increases intra-abdominal pressure and helps stabilize the spine."
-  },
-  {
-    "question": "Should beginners lift heavy weights?",
-    "answer": "Beginners should first focus on learning proper form with lighter weights. Once form is mastered, they can gradually increase the weight to build strength safely."
-  },
-  {
-    "question": "How often should I change my workout routine?",
-    "answer": "It's a good idea to introduce some changes to your routine every 4-6 weeks to prevent plateaus and keep your body adapting. This could be changing exercises, rep schemes, or training style."
-  },
-  {
-    "question": "What are callisthenics?",
-    "answer": "Callisthenics are a form of strength training consisting of a variety of movements that exercise large muscle groups, such as running, standing, grasping, pushing, etc. They are often performed rhythmically and with minimal equipment, as they are bodyweight exercises."
-  },
-  {
-    "question": "What are micronutrients?",
-    "answer": "Micronutrients are essential vitamins and minerals that the body needs in small amounts. They are vital for development, disease prevention, and overall well-being."
-  },
-  {
-    "question": "What is the role of iron in the body?",
-    "answer": "Iron is a crucial component of hemoglobin, the substance in red blood cells that carries oxygen from your lungs to transport it throughout your body."
-  },
-  {
-    "question": "Why is calcium important for athletes?",
-    "answer": "Calcium is essential for building and maintaining strong bones, as well as for proper muscle contraction and nerve function."
-  },
-  {
-    "question": "What is spot reduction?",
-    "answer": "Spot reduction is the myth that you can lose fat from a specific area of your body by exercising that area alone. Fat loss occurs systemically across the entire body."
-  },
-  {
-    "question": "What is Tabata training?",
-    "answer": "Tabata is a specific type of HIIT workout that features 20 seconds of ultra-intense exercise followed by 10 seconds of rest, repeated continuously for 8 rounds (4 minutes)."
-  },
-  {
-    "question": "What is a superset?",
-    "answer": "A superset is when you perform two different exercises back-to-back with little to no rest in between. They can be for the same muscle group or opposing muscle groups."
-  },
-  {
-    "question": "What is a drop set?",
-    "answer": "A drop set is an advanced resistance training technique where you perform an exercise until failure, then immediately reduce (drop) the weight and continue for more repetitions."
-  },
-  {
-    "question": "What is hypertrophy?",
-    "answer": "Hypertrophy is the increase and growth of muscle cells. It refers to an increase in muscular size achieved through exercise, particularly weight training."
-  },
-  {
-    "question": "Is muscle soreness a sign of a good workout?",
-    "answer": "Not necessarily. While muscle soreness (DOMS) indicates that you've stressed your muscles, a lack of soreness doesn't mean you didn't have an effective workout. Progress is a better indicator."
-  },
-  {
-    "question": "Can I build muscle and lose fat at the same time?",
-    "answer": "Yes, this process is called body recomposition. It is most common in beginners to strength training or those returning after a long break, but it is challenging as it requires a high-protein diet and a precise calorie intake."
-  },
-  {
-    "question": "What is active recovery?",
-    "answer": "Active recovery refers to performing low-intensity exercise following a strenuous workout. Examples include walking, gentle yoga, or light cycling. It can help reduce soreness and improve circulation."
-  },
-  {
-    "question": "What is the difference between a chin-up and a pull-up?",
-    "answer": "The primary difference is grip. A chin-up uses a supinated (underhand) grip, with palms facing you. A pull-up uses a pronated (overhand) grip, with palms facing away. Chin-ups tend to involve more bicep activation."
-  },
-  {
-    "question": "What is agility training?",
-    "answer": "Agility training involves exercises that improve the ability to change direction and position of the body quickly and effectively while under control. It's crucial in many sports."
-  },
-  {
-    "question": "What are some agility drills?",
-    "answer": "Common agility drills include ladder drills, cone drills (e.g., shuttle runs), and box drills."
-  },
-  {
-    "question": "What is proprioception?",
-    "answer": "Proprioception is your body's ability to sense its location, movements, and actions. It's often referred to as the 'sixth sense'. Exercises that challenge balance, like standing on one leg, can improve it."
-  },
-  {
-    "question": "What are BCAAs?",
-    "answer": "BCAA stands for Branched-Chain Amino Acids. They are a group of three essential amino acids: leucine, isoleucine, and valine. They are thought to support muscle growth and reduce muscle fatigue, though a protein-rich diet often provides enough."
-  },
-  {
-    "question": "What is the glycemic index (GI)?",
-    "answer": "The glycemic index is a ranking of carbohydrate-containing foods based on how quickly they raise blood sugar (glucose) levels after eating. Low-GI foods are digested more slowly."
-  },
-  {
-    "question": "What is periodization in training?",
-    "answer": "Periodization is the long-term planning of a training program. It's organized into specific cycles (macrocycles, mesocycles, and microcycles) with varying volume and intensity to optimize performance and prevent overtraining."
-  },
-  {
-    "question": "What is the difference between mobility and flexibility?",
-    "answer": "Flexibility refers to the ability of a muscle to lengthen passively. Mobility is the ability of a joint to move actively through its full range of motion. Good mobility requires flexibility but also strength and motor control."
-  },
-  {
-    "question": "How can I improve my posture?",
-    "answer": "You can improve posture by strengthening your core and upper back muscles (e.g., rows, planks) and stretching tight chest muscles. Also, be mindful of your posture throughout the day while sitting and standing."
-  },
-  {
-    "question": "Is it better to use free weights or machines?",
-    "answer": "Both have benefits. Free weights (dumbbells, barbells) engage more stabilizer muscles and improve coordination. Machines provide more stability, which can be safer for beginners or for isolating specific muscles."
-  },
-  {
-    "question": "What is the one-rep max (1RM)?",
-    "answer": "A one-rep max is the maximum amount of weight you can lift for a single repetition of a given exercise with proper form."
-  },
-  {
-    "question": "Why is balance training important?",
-    "answer": "Balance training is important for improving body control and stability, which helps prevent falls and injuries, particularly as we age. It's crucial for athletic performance and daily activities."
-  },
-  {
-    "question": "What are kettlebells?",
-    "answer": "A kettlebell is a cast-iron or cast-steel ball with a handle attached to the top. They are used to perform ballistic exercises that combine cardiovascular, strength, and flexibility training."
-  },
-  {
-    "question": "What is a kettlebell swing?",
-    "answer": "The kettlebell swing is a fundamental ballistic exercise that involves swinging the kettlebell from between the knees up to chest or eye level. It's excellent for developing posterior chain power and cardiovascular endurance."
-  },
-  {
-    "question": "What does 'time under tension' (TUT) mean?",
-    "answer": "Time under tension refers to the total amount of time a muscle is held under strain during a set of an exercise. Slower, more controlled movements increase TUT, which can be a factor in muscle hypertrophy."
-  },
-  {
-    "question": "What is interval training?",
-    "answer": "Interval training is a type of training that involves a series of high-intensity workouts interspersed with rest or relief periods. The high-intensity periods are typically at or close to anaerobic exercise, while the recovery periods involve activity of lower intensity."
-  },
-  {
-    "question": "What is the difference between speed and agility?",
-    "answer": "Speed is the ability to move the body in one direction as fast as possible. Agility is the ability to accelerate, decelerate, stabilize, and quickly change directions with proper posture."
-  },
-  {
-    "question": "What are resistance bands?",
-    "answer": "Resistance bands are elastic bands used for strength training. They are lightweight, portable, and provide resistance when stretched, making them a versatile tool for workouts."
-  },
-  {
-    "question": "What is the mind-body connection in fitness?",
-    "answer": "The mind-body connection refers to the interaction between one's thoughts, emotions, and physical health. Practices like yoga and Tai Chi are excellent for strengthening this connection, leading to reduced stress and improved physical awareness."
-  },
-  {
-    "question": "What is visceral fat?",
-    "answer": "Visceral fat is a type of body fat that's stored within the abdominal cavity. It's located near several vital organs, including the liver, stomach, and intestines. High levels of visceral fat are linked to increased health risks."
-  },
-  {
-    "question": "How can I reduce visceral fat?",
-    "answer": "Reducing visceral fat involves a combination of regular aerobic and strength training, a balanced diet low in processed foods and sugar, managing stress, and getting adequate sleep."
-  },
-  {
-    "question": "What is an isometric exercise?",
-    "answer": "An isometric exercise is a type of strength training in which the joint angle and muscle length do not change during contraction. Examples include planks and wall sits."
-  },
-  {
-    "question": "What is an isotonic exercise?",
-    "answer": "An isotonic exercise is a type of strength training in which the muscle contracts and a joint moves. This includes concentric (muscle shortening) and eccentric (muscle lengthening) contractions. Most weightlifting exercises are isotonic."
-  },
-  {
-    "question": "What is a concentric contraction?",
-    "answer": "A concentric contraction is a type of muscle activation that causes tension on your muscle as it shortens. For example, lifting the dumbbell during a bicep curl."
-  },
-  {
-    "question": "What is an eccentric contraction?",
-    "answer": "An eccentric contraction is the motion of an active muscle while it is lengthening under load. For example, lowering the dumbbell in a controlled manner during a bicep curl."
-  },
-  {
-    "question": "Why is the eccentric phase of a lift important?",
-    "answer": "The eccentric phase is important because it can cause significant muscle damage (micro-tears), which is a key stimulus for muscle growth and strength development. Controlling the eccentric portion is also crucial for safety."
-  },
-  {
-    "question": "What is the recommended daily protein intake for an active person?",
-    "answer": "The recommended daily protein intake for active individuals typically ranges from 1.2 to 2.0 grams of protein per kilogram of body weight, depending on the intensity and goals of their training."
-  },
-  {
-    "question": "What is 'bulking' and 'cutting'?",
-    "answer": "'Bulking' is a phase of being in a calorie surplus to maximize muscle gain, which may also result in some fat gain. 'Cutting' is a phase of being in a calorie deficit to lose fat while trying to preserve as much muscle as possible."
-  },
-  {
-    "question": "What is the anaerobic threshold?",
-    "answer": "The anaerobic threshold is the point during exercise at which lactic acid begins to accumulate in the muscles faster than it can be cleared away. Training at this intensity is key for improving endurance performance."
-  },
-  {
-    "question": "What is VO2 max?",
-    "answer": "VO2 max is the maximum rate of oxygen your body is able to use during intense exercise. It is a common indicator of cardiovascular fitness and aerobic endurance."
-  },
-  {
-    "question": "What are 'Reps in Reserve' (RIR)?",
-    "answer": "Reps in Reserve (RIR) is a method for autoregulating training intensity. It refers to the number of repetitions you could have performed before reaching muscular failure. For example, a 2 RIR means you stopped the set but could have done 2 more reps."
-  },
-  {
-    "question": "Explain mechanical tension for muscle growth.",
-    "answer": "Mechanical tension is the force placed on a muscle when it is stretched and contracted with resistance. It is considered the primary driver of muscle hypertrophy. Lifting heavy weights through a full range of motion maximizes mechanical tension."
-  },
-  {
-    "question": "What is metabolic stress in training?",
-    "answer": "Metabolic stress is the buildup of metabolites, such as lactate and hydrogen ions, within muscle cells during exercise, often associated with the 'pump' or 'burn' feeling. It's another key mechanism for muscle growth, often targeted with higher-rep sets."
-  },
-  {
-    "question": "What is German Volume Training (GVT)?",
-    "answer": "German Volume Training is a high-volume training method that involves performing 10 sets of 10 repetitions of a single compound exercise for a specific body part. It is known for inducing significant hypertrophy through metabolic stress."
-  },
-  {
-    "question": "What is intermittent fasting (IF)?",
-    "answer": "Intermittent fasting is an eating pattern that cycles between periods of eating and fasting. Common methods include the 16/8 method (fasting for 16 hours, eating in an 8-hour window) and the 5:2 diet."
-  },
-  {
-    "question": "What does the supplement beta-alanine do?",
-    "answer": "Beta-alanine is an amino acid that increases carnosine levels in muscles. Carnosine helps buffer acid buildup, which can reduce fatigue and improve performance during high-intensity exercises lasting 1-4 minutes."
-  },
-  {
-    "question": "How does alcohol affect muscle growth?",
-    "answer": "Alcohol can negatively impact muscle growth by impairing muscle protein synthesis, causing dehydration, disrupting sleep patterns (which is crucial for recovery), and reducing testosterone levels."
-  },
-  {
-    "question": "What are the three planes of motion in biomechanics?",
-    "answer": "The three planes of motion are the Sagittal Plane (divides body into left and right, for forward/backward movements like squats), Frontal Plane (divides body into front and back, for side-to-side movements like side lunges), and Transverse Plane (divides body into top and bottom, for rotational movements like a torso twist)."
-  },
-  {
-    "question": "What is the difference between Type I and Type II muscle fibers?",
-    "answer": "Type I fibers, or slow-twitch fibers, are resistant to fatigue and are used for endurance activities like long-distance running. Type II fibers, or fast-twitch fibers, contract quickly and are used for powerful, explosive movements like sprinting and heavy lifting."
-  },
-  {
-    "question": "What is runner's knee?",
-    "answer": "Runner's knee, or patellofemoral pain syndrome, is a condition characterized by pain around the kneecap (patella). It's often caused by overuse, muscular imbalances, or improper tracking of the kneecap."
+    "question": "What is Low-Intensity Steady-State (LISS) cardio?",
+    "answer": "LISS is a form of cardiovascular exercise where you maintain a low to moderate intensity for a continuous, extended period, typically 30-60 minutes. Examples include brisk walking, light cycling, or using the elliptical at a steady pace."
   },
   {
     "question": "What are heart rate zones?",
-    "answer": "Heart rate zones are ranges based on a percentage of your maximum heart rate. Training in different zones targets specific outcomes: Zone 1-2 for recovery and fat burning, Zone 3 for aerobic fitness, and Zones 4-5 for anaerobic performance and VO2 max."
+    "answer": "Heart rate zones are ranges based on a percentage of your maximum heart rate. Training in different zones allows you to target specific fitness goals, such as fat burning (Zone 2), improving aerobic fitness (Zone 3), or increasing anaerobic threshold (Zone 4)."
   },
   {
-    "question": "What are SMART goals in fitness?",
-    "answer": "SMART is an acronym for setting effective goals: Specific (clearly defined), Measurable (trackable), Achievable (realistic), Relevant (aligned with your objectives), and Time-bound (has a deadline)."
+    "question": "How do I calculate my maximum heart rate (MHR)?",
+    "answer": "A common and simple formula to estimate your maximum heart rate is 220 minus your age. For example, a 30-year-old would have an estimated MHR of 190 beats per minute. More accurate methods involve clinical testing."
   },
   {
-    "question": "How can I overcome gym anxiety?",
-    "answer": "To overcome gym anxiety, try going during off-peak hours, having a pre-planned workout, wearing clothes you feel comfortable in, focusing on your own progress, and remembering that most people are not paying attention to you."
+    "question": "What is the 'fat burning zone'?",
+    "answer": "The 'fat burning zone' typically refers to Zone 2, which is about 60-70% of your maximum heart rate. In this zone, the body uses a higher percentage of fat for fuel, but you burn fewer total calories compared to higher intensity zones."
   },
   {
-    "question": "When should I use a lifting belt?",
-    "answer": "A lifting belt should be used primarily for near-maximal attempts on heavy compound lifts like squats, deadlifts, and overhead presses. It works by increasing intra-abdominal pressure, which helps stabilize the spine."
+    "question": "What are the benefits of running?",
+    "answer": "Running offers numerous benefits, including improved cardiovascular health, strengthened bones, weight management, stress reduction, and enhanced mood due to the release of endorphins. It is a highly accessible form of aerobic exercise."
   },
   {
-    "question": "What's the main benefit of a rowing machine?",
-    "answer": "The main benefit of a rowing machine is that it provides a full-body, low-impact cardiovascular workout, engaging over 85% of the body's muscles, including the legs, core, and back."
+    "question": "What are the benefits of swimming?",
+    "answer": "Swimming is a full-body, low-impact workout that improves cardiovascular fitness, builds muscle strength and endurance, and increases flexibility. Because it's low-impact, it's gentle on the joints and suitable for people of all ages."
   },
   {
-    "question": "What is casein protein?",
-    "answer": "Casein protein is a slow-digesting protein also derived from milk. It forms a gel in the stomach, leading to a steady release of amino acids over several hours. It's often taken before bed to aid overnight muscle recovery."
+    "question": "What are the benefits of cycling?",
+    "answer": "Cycling is a low-impact aerobic exercise that improves cardiovascular health, strengthens lower body muscles (quads, hamstrings, glutes), and aids in weight management. It can be done outdoors or indoors on a stationary bike."
   },
   {
-    "question": "Explain the concept of nutrient timing.",
-    "answer": "Nutrient timing is the strategy of consuming specific nutrients (primarily protein and carbs) at certain times, particularly around a workout, to maximize performance, recovery, and muscle growth."
+    "question": "What is a treadmill?",
+    "answer": "A treadmill is a common piece of cardio equipment that allows for walking, jogging, or running in place. Most treadmills offer adjustable speed and incline to vary the intensity of the workout."
   },
   {
-    "question": "What is the role of dietary fiber?",
-    "answer": "Dietary fiber is a type of carbohydrate that the body can't digest. It's important for digestive health, helps regulate blood sugar levels, and can contribute to feelings of fullness, which aids in weight management."
+    "question": "What is an elliptical trainer?",
+    "answer": "An elliptical trainer is a stationary exercise machine used to simulate stair climbing, walking, or running without causing excessive pressure on the joints, hence decreasing the risk of impact injuries. It provides a low-impact, full-body workout."
   },
   {
-    "question": "What is blood flow restriction (BFR) training?",
-    "answer": "BFR training involves using cuffs or wraps to restrict venous blood flow from a working muscle. This allows you to stimulate muscle growth using very light weights, as it creates significant metabolic stress."
+    "question": "What is a rowing machine?",
+    "answer": "A rowing machine, or ergometer, is a machine used to simulate the action of watercraft rowing for the purpose of exercise. It provides a full-body workout that targets the legs, core, and upper back, while also being a low-impact form of cardio."
   },
   {
-    "question": "What is a concentric-only movement?",
-    "answer": "A concentric-only movement is an exercise that emphasizes the muscle-shortening phase and minimizes or eliminates the muscle-lengthening (eccentric) phase. Examples include sled pushes or medicine ball throws."
+    "question": "Is walking a good form of exercise?",
+    "answer": "Yes, walking is an excellent low-impact form of exercise. Brisk walking can improve cardiovascular fitness, strengthen bones, reduce excess body fat, and boost muscle power and endurance. It is accessible and requires no special equipment."
   },
   {
-    "question": "What is the function of the gluteus maximus?",
-    "answer": "The gluteus maximus is the largest muscle in the body. Its primary function is hip extension, which is crucial for movements like standing up from a squat, climbing stairs, and running."
+    "question": "What is the difference between jogging and running?",
+    "answer": "The primary difference between jogging and running is intensity. Jogging is typically done at a slower pace (under 6 mph), with less demand on the heart and muscles. Running is faster, burns more calories, and places a higher demand on the body."
   },
   {
-    "question": "What are the rotator cuff muscles?",
-    "answer": "The rotator cuff is a group of four muscles and their tendons that surround the shoulder joint. They are responsible for stabilizing the shoulder and allowing for rotation and lifting of the arm."
+    "question": "What is VO2 max?",
+    "answer": "VO2 max is the maximum rate of oxygen your body can utilize during intense exercise. It is considered one of the best indicators of cardiovascular fitness and aerobic endurance. A higher VO2 max means your body is more efficient at using oxygen."
   },
   {
-    "question": "What is the difference between an adaptation and a response to exercise?",
-    "answer": "A response is the body's acute, short-term reaction to exercise, such as an increased heart rate. An adaptation is a long-term physiological change that occurs in response to consistent training, such as a lower resting heart rate."
-  },
-  {
-    "question": "What is exercise economy?",
-    "answer": "Exercise economy refers to the amount of oxygen consumed to maintain a given speed or power output. An improved economy means you use less energy (and oxygen) to perform the same amount of work, making you more efficient."
-  },
-  {
-    "question": "What is sarcopenia?",
-    "answer": "Sarcopenia is the age-related, involuntary loss of muscle mass, strength, and function. Regular strength training is the most effective way to combat and slow the progression of sarcopenia."
-  },
-  {
-    "question": "Is it safe to exercise during pregnancy?",
-    "answer": "For most healthy pregnancies, moderate exercise is safe and recommended. It can reduce backaches, improve mood, and help with postpartum recovery. However, it's essential to consult with a doctor before starting or continuing an exercise program."
-  },
-  {
-    "question": "How does exercise benefit mental health?",
-    "answer": "Exercise benefits mental health by releasing endorphins (natural mood elevators), reducing levels of stress hormones like cortisol, improving sleep quality, and boosting self-confidence and cognitive function."
-  },
-  {
-    "question": "What is 'greasing the groove'?",
-    "answer": "'Greasing the groove' is a training method where you perform a specific exercise (like a pull-up) frequently throughout the day in low-rep, non-fatiguing sets. It improves neuromuscular efficiency and strength for that specific movement."
-  },
-  {
-    "question": "What is the difference between a pronated and supinated grip?",
-    "answer": "A pronated grip is an overhand grip where the palms face away from you (e.g., a pull-up). A supinated grip is an underhand grip where the palms face toward you (e.g., a chin-up)."
-  },
-  {
-    "question": "What is proprioceptive neuromuscular facilitation (PNF) stretching?",
-    "answer": "PNF is an advanced form of flexibility training that involves both the stretching and contracting of the muscle group being targeted. A common method is the 'contract-relax' technique."
-  },
-  {
-    "question": "What is the role of the transverse abdominis?",
-    "answer": "The transverse abdominis is the deepest of the abdominal muscles. It acts like a natural corset, stabilizing the spine and pelvis, and is crucial for core strength and preventing lower back pain."
-  },
-  {
-    "question": "Why is grip strength important?",
-    "answer": "Grip strength is not only crucial for lifting heavy weights in exercises like deadlifts and rows, but it is also a key indicator of overall health and is correlated with longevity and reduced risk of chronic disease."
-  },
-  {
-    "question": "What is the difference between a barbell and a dumbbell?",
-    "answer": "A barbell is a long bar that is held with both hands, allowing for heavier, more stable lifts. A dumbbell is a short bar with weights on both ends, held in one hand, which requires more stabilization and can help address muscle imbalances."
-  },
-  {
-    "question": "What is autoregulation in training?",
-    "answer": "Autoregulation is the practice of adjusting your training variables (like volume or intensity) based on how you feel on a given day. Methods like RPE (Rate of Perceived Exertion) and RIR (Reps in Reserve) are forms of autoregulation."
+    "question": "How can I improve my VO2 max?",
+    "answer": "You can improve your VO2 max primarily through high-intensity cardiovascular training. Workouts like HIIT, interval running, and Tabata are very effective at pushing your body to improve its oxygen uptake and utilization."
   },
   {
     "question": "What is the lactate threshold?",
-    "answer": "The lactate threshold is the exercise intensity at which lactate (lactic acid) starts to accumulate in the blood faster than it can be removed. Training to improve this threshold is key for endurance athletes."
+    "answer": "The lactate threshold is the point during intense exercise at which lactate builds up in the blood faster than it can be removed. Training at or near this threshold can improve endurance by teaching your body to clear lactate more efficiently."
   },
   {
-    "question": "What is the purpose of a weightlifting shoe?",
-    "answer": "A weightlifting shoe typically has a hard, flat sole and a raised heel. This design provides a stable base of support and allows for greater depth in squats by improving ankle mobility."
+    "question": "What is a 'runner's high'?",
+    "answer": "A 'runner's high' is a brief, deeply relaxing state of euphoria reported by some athletes during or after strenuous exercise. It is often attributed to the release of endorphins, the body's natural pain-relieving and mood-elevating chemicals."
   },
   {
-    "question": "How does sleep deprivation affect fitness performance?",
-    "answer": "Sleep deprivation impairs cognitive function, reaction time, and motivation. It also disrupts hormonal balance, increasing the stress hormone cortisol and decreasing hormones responsible for muscle repair and growth."
+    "question": "What kind of shoes are best for running?",
+    "answer": "The best running shoes provide adequate cushioning, support, and a comfortable fit for your specific foot type. It is recommended to get a gait analysis at a specialty running store to determine if you have a neutral, overpronation, or supination foot strike."
   },
   {
-    "question": "What is the concept of 'maintenance calories'?",
-    "answer": "Maintenance calories refer to the total number of calories you need to consume in a day to maintain your current body weight without gaining or losing weight. It is equivalent to your TDEE (Total Daily Energy Expenditure)."
+    "question": "What is overpronation?",
+    "answer": "Overpronation is when the foot rolls excessively inward after landing. This can lead to injuries in the feet, ankles, and knees. Stability running shoes are designed to help correct overpronation."
   },
   {
-    "question": "What is non-exercise activity thermogenesis (NEAT)?",
-    "answer": "NEAT is the energy expended for everything we do that is not sleeping, eating, or sports-like exercise. It includes activities like walking to work, typing, and fidgeting. It can be a significant component of daily calorie expenditure."
+    "question": "What is supination?",
+    "answer": "Supination (or underpronation) is when the foot rolls outward during the gait cycle. This places extra stress on the outer edge of the foot. Neutral running shoes with good cushioning are often recommended for supinators."
   },
   {
-    "question": "What are plyometric push-ups?",
-    "answer": "Plyometric push-ups are an explosive variation of the standard push-up where you push yourself off the ground with enough force for your hands to leave the floor. They are excellent for developing upper body power."
+    "question": "How often should I do cardio per week?",
+    "answer": "General health guidelines recommend at least 150 minutes of moderate-intensity aerobic activity or 75 minutes of vigorous-intensity aerobic activity per week, or a combination of both, spread throughout the week."
   },
   {
-    "question": "What is the function of the latissimus dorsi?",
-    "answer": "The latissimus dorsi, or 'lats', are the large, flat muscles on the back. Their primary functions are shoulder adduction, extension, and internal rotation, which are key movements in pulling exercises like pull-ups and rows."
+    "question": "Can cardio help with weight loss?",
+    "answer": "Yes, cardio is a very effective tool for weight loss as it burns a significant number of calories. Combining regular cardiovascular exercise with a calorie deficit in your diet is the most effective strategy for losing weight."
   },
   {
-    "question": "What is a unilateral exercise?",
-    "answer": "A unilateral exercise is a movement performed with one limb at a time, such as a single-arm dumbbell row or a pistol squat. They are excellent for identifying and correcting muscle imbalances and improving stability."
+    "question": "Should I do cardio before or after strength training?",
+    "answer": "It depends on your goals. If your primary goal is to build strength or muscle, perform strength training first when you are fresh. If your goal is to improve cardiovascular endurance, you can do cardio first. For general fitness, the order is less critical."
   },
   {
-    "question": "What is a bilateral exercise?",
-    "answer": "A bilateral exercise is a movement performed with both limbs working together at the same time, such as a barbell squat or a standard push-up."
+    "question": "What is fasted cardio?",
+    "answer": "Fasted cardio is performing aerobic exercise in the morning on an empty stomach, before eating your first meal. Some believe this can lead to greater fat loss, though research is mixed. The overall calorie balance throughout the day is more important."
   },
   {
-    "question": "What is postural sway?",
-    "answer": "Postural sway is the natural, continuous shifting of the body's center of gravity over its base of support while standing. Exercises that challenge balance can help reduce excessive sway and improve stability."
+    "question": "What is strength training?",
+    "answer": "Strength training, also known as resistance training, is any exercise that causes the muscles to contract against an external resistance. This builds muscular strength, endurance, and size. Common forms include weightlifting and calisthenics."
   },
   {
-    "question": "What is the role of Vitamin D in fitness?",
-    "answer": "Vitamin D is crucial for bone health as it aids in calcium absorption. It also plays a role in muscle function, immune health, and regulating inflammatory responses."
+    "question": "What are the benefits of strength training?",
+    "answer": "The benefits of strength training include increased muscle mass, stronger bones, improved joint health, enhanced metabolism, better body composition, and a reduced risk of injury and chronic diseases."
   },
   {
-    "question": "What are omega-3 fatty acids and why are they important?",
-    "answer": "Omega-3 fatty acids are a type of healthy polyunsaturated fat. They are known for their anti-inflammatory properties, which can help reduce muscle soreness and support joint health. They also contribute to cardiovascular and brain health."
+    "question": "What is the difference between compound and isolation exercises?",
+    "answer": "Compound exercises work multiple muscle groups and joints simultaneously (e.g., squat, deadlift, bench press). Isolation exercises target a single muscle group and joint (e.g., bicep curl, leg extension)."
   },
   {
-    "question": "What is the difference between bodybuilding and powerlifting?",
-    "answer": "Bodybuilding is a sport focused on developing muscle size, symmetry, and definition for aesthetic purposes. Powerlifting is a strength sport focused on lifting the maximum possible weight for three lifts: the squat, bench press, and deadlift."
+    "question": "What are the main compound lifts?",
+    "answer": "The main compound lifts, often considered the foundation of strength training, include the squat, deadlift, bench press, and overhead press. These exercises are highly effective for building overall strength and muscle mass."
   },
   {
-    "question": "What is an AMRAP workout?",
-    "answer": "AMRAP stands for 'As Many Reps (or Rounds) As Possible'. It's a type of workout where you try to perform as many repetitions or rounds of a given set of exercises as you can within a specific timeframe."
+    "question": "How do you perform a proper squat?",
+    "answer": "To perform a squat, stand with your feet shoulder-width apart, keep your chest up and back straight, and lower your hips as if sitting in a chair until your thighs are at least parallel to the floor. Drive through your heels to return to the starting position."
   },
   {
-    "question": "What is an EMOM workout?",
-    "answer": "EMOM stands for 'Every Minute On the Minute'. In this workout style, you perform a specific exercise or set of exercises at the start of each minute for a set number of minutes. The remaining time within the minute is your rest period."
+    "question": "How do you perform a proper deadlift?",
+    "answer": "To perform a deadlift, stand with your mid-foot under the barbell. Hinge at your hips and bend your knees to grip the bar. Keep your back straight, chest up, and pull the bar upwards by extending your hips and knees, keeping the bar close to your body."
   },
   {
-    "question": "What is the 'afterburn effect' or EPOC?",
-    "answer": "EPOC stands for Excess Post-exercise Oxygen Consumption, also known as the afterburn effect. It is the increased rate of oxygen intake following strenuous activity, which results in an elevated metabolism and extra calories burned for hours after the workout has finished."
+    "question": "How do you perform a proper bench press?",
+    "answer": "To perform a bench press, lie on a flat bench with your feet on the floor. Grip the barbell slightly wider than shoulder-width. Lower the bar to your mid-chest in a controlled manner, then press it back up to the starting position until your elbows are locked."
   },
   {
-    "question": "What is the stretch-shortening cycle (SSC)?",
-    "answer": "The stretch-shortening cycle is an active stretch (eccentric contraction) of a muscle followed by an immediate shortening (concentric contraction) of the same muscle. It's the underlying mechanism of plyometric exercises, allowing for more powerful movements."
+    "question": "What is an 'isolation exercise'?",
+    "answer": "An isolation exercise is designed to work a specific muscle in isolation from others. Examples include bicep curls, tricep pushdowns, leg curls, and calf raises. They are often used to target and develop specific muscles."
+  },
+  {
+    "question": "What are 'reps' and 'sets'?",
+    "answer": "A 'rep' (repetition) is one complete execution of an exercise movement. A 'set' is a group of consecutive reps performed without resting. For example, '3 sets of 10 reps' means you do the exercise 10 times, rest, and repeat two more times."
+  },
+  {
+    "question": "How many reps should I do for muscle growth (hypertrophy)?",
+    "answer": "For muscle hypertrophy, the generally recommended rep range is 8-12 repetitions per set, performed with a weight that makes the last few reps challenging while maintaining good form."
+  },
+  {
+    "question": "How many reps should I do for building maximal strength?",
+    "answer": "To build maximal strength, the recommended rep range is typically 1-6 repetitions per set, using very heavy weights (around 85% or more of your one-rep max)."
+  },
+  {
+    "question": "How many reps should I do for muscular endurance?",
+    "answer": "For improving muscular endurance, a higher rep range of 15-20 or more repetitions per set is recommended, using lighter weights and shorter rest periods."
+  },
+  {
+    "question": "How long should I rest between sets?",
+    "answer": "Rest periods depend on your goals. For strength, rest 3-5 minutes. For hypertrophy, rest 60-90 seconds. For endurance, rest 30-60 seconds. Longer rests allow for more complete recovery, enabling you to lift heavier."
+  },
+  {
+    "question": "What is a 'one-rep max' (1RM)?",
+    "answer": "Your one-rep max is the maximum amount of weight you can lift for a single repetition of a given exercise with proper form. It is a common measure of maximal strength."
+  },
+  {
+    "question": "What is a 'workout split'?",
+    "answer": "A workout split is a way of organizing your training week by dividing your workouts by muscle group or movement pattern. Common splits include the full-body split, upper/lower split, and push/pull/legs split."
+  },
+  {
+    "question": "What is a full-body workout split?",
+    "answer": "A full-body workout split involves training all major muscle groups in each session. This is often recommended for beginners and is typically performed 2-3 times per week on non-consecutive days."
+  },
+  {
+    "question": "What is an upper/lower workout split?",
+    "answer": "An upper/lower split divides workouts into upper-body days and lower-body days. A typical schedule would be 4 days a week, for example: Upper, Lower, Rest, Upper, Lower, Rest, Rest."
+  },
+  {
+    "question": "What is a push/pull/legs workout split?",
+    "answer": "A push/pull/legs (PPL) split is a popular 3 or 6-day split. 'Push' day includes chest, shoulders, and triceps. 'Pull' day includes back and biceps. 'Legs' day includes quads, hamstrings, and calves."
+  },
+  {
+    "question": "What is training volume?",
+    "answer": "Training volume is a measure of the total amount of work performed in a workout. It is typically calculated as sets x reps x weight. It is a key variable to manipulate for progressive overload."
+  },
+  {
+    "question": "What is training intensity?",
+    "answer": "Training intensity refers to how heavy the weight you are lifting is, usually expressed as a percentage of your one-rep max (1RM). Higher intensity means heavier weight and fewer reps."
+  },
+  {
+    "question": "What is training frequency?",
+    "answer": "Training frequency refers to how often you train a specific muscle group per week. Research suggests that training a muscle group twice per week is often optimal for hypertrophy."
+  },
+  {
+    "question": "Is it better to use free weights or machines?",
+    "answer": "Both have benefits. Free weights (barbells, dumbbells) engage more stabilizer muscles and improve real-world strength. Machines provide more stability, which can be safer for beginners and is good for isolating specific muscles."
+  },
+  {
+    "question": "What is a barbell?",
+    "answer": "A barbell is a long iron bar to which weight plates are attached at each end. It is used for compound exercises like squats, deadlifts, and bench presses, allowing for heavy, bilateral movements."
+  },
+  {
+    "question": "What are dumbbells?",
+    "answer": "Dumbbells are a type of free weight, consisting of a short bar with a weight at each end. They are used for a wide variety of exercises and are excellent for unilateral training to correct muscle imbalances."
+  },
+  {
+    "question": "What are kettlebells?",
+    "answer": "A kettlebell is a cast iron or steel ball with a handle on top. They are used for ballistic exercises like swings, snatches, and cleans that combine cardiovascular, strength, and flexibility training."
+  },
+  {
+    "question": "What are resistance bands?",
+    "answer": "Resistance bands are elastic bands used for strength training and physical therapy. They provide accommodating resistance, meaning the resistance increases as the band is stretched, making them a versatile and portable training tool."
+  },
+  {
+    "question": "What is calisthenics?",
+    "answer": "Calisthenics is a form of strength training that uses your own body weight as resistance. Common calisthenics exercises include push-ups, pull-ups, squats, lunges, and planks. It's a great way to build functional strength with minimal equipment."
+  },
+  {
+    "question": "What is bodybuilding?",
+    "answer": "Bodybuilding is a lifestyle and sport focused on developing muscle size (hypertrophy), symmetry, and low body fat for aesthetic purposes. Training typically involves moderate reps (8-12) and a focus on isolating specific muscles."
+  },
+  {
+    "question": "What is powerlifting?",
+    "answer": "Powerlifting is a strength sport focused on lifting the maximum possible weight for a single repetition in three specific lifts: the squat, the bench press, and the deadlift. Training involves low reps and very high intensity."
+  },
+  {
+    "question": "What is Olympic weightlifting?",
+    "answer": "Olympic weightlifting is a sport in which athletes compete in lifting a barbell loaded with weight plates. The two competitive lifts are the snatch and the clean and jerk. These movements require a high degree of power, speed, and technique."
+  },
+  {
+    "question": "What is CrossFit?",
+    "answer": "CrossFit is a branded fitness regimen that incorporates elements from high-intensity interval training, Olympic weightlifting, powerlifting, gymnastics, and other exercises. Workouts are typically varied and performed at high intensity."
+  },
+  {
+    "question": "What is proper form and why is it important?",
+    "answer": "Proper form refers to the correct technique for performing an exercise. It is crucial for effectively targeting the intended muscles, maximizing results, and, most importantly, preventing injuries."
+  },
+  {
+    "question": "What is the mind-muscle connection?",
+    "answer": "The mind-muscle connection is the conscious and deliberate focus on contracting a specific muscle during an exercise. This can enhance muscle activation and engagement, leading to better results from your training."
+  },
+  {
+    "question": "What is a 'plateau' in training?",
+    "answer": "A plateau is a point in your training where you stop making progress in strength or muscle size despite continuing to work out. It's a sign that your body has adapted to your current routine and needs a new stimulus."
+  },
+  {
+    "question": "How do I break through a training plateau?",
+    "answer": "To break a plateau, you need to change your training variables. This can include increasing the weight (progressive overload), changing your exercises, altering your rep and set scheme, improving your nutrition, or taking a planned deload week."
+  },
+  {
+    "question": "What is a 'deload' week?",
+    "answer": "A deload week is a planned period of recovery where you intentionally reduce your training volume and intensity. This allows your body and central nervous system to fully recover, which can help prevent overtraining and break through plateaus."
+  },
+  {
+    "question": "What is overtraining?",
+    "answer": "Overtraining occurs when the volume and intensity of your exercise exceed your body's ability to recover. Symptoms include chronic fatigue, decreased performance, persistent muscle soreness, sleep disturbances, and an increased risk of injury."
+  },
+  {
+    "question": "What are advanced training techniques?",
+    "answer": "Advanced training techniques are methods used to increase the intensity of a workout beyond standard sets and reps. Examples include supersets, drop sets, rest-pause sets, and giant sets. They are typically for experienced lifters."
+  },
+  {
+    "question": "What is a superset?",
+    "answer": "A superset is when you perform two different exercises back-to-back with little to no rest. This can be done for opposing muscle groups (e.g., biceps and triceps) or the same muscle group to increase intensity."
+  },
+  {
+    "question": "What is a drop set?",
+    "answer": "A drop set is a technique where you perform a set to failure, then immediately reduce the weight and continue for more reps until failure again. This is typically done for 2-3 'drops' and is a high-intensity method for inducing hypertrophy."
+  },
+  {
+    "question": "What is a rest-pause set?",
+    "answer": "A rest-pause set involves performing an exercise to failure, taking a very short rest (10-15 seconds), and then performing more reps with the same weight. This allows you to complete more reps with a heavy weight than you could in a single straight set."
+  },
+  {
+    "question": "When should I use a lifting belt?",
+    "answer": "A lifting belt is a tool used to increase intra-abdominal pressure during heavy lifts, which helps stabilize the spine. It should be used primarily for near-maximal attempts on compound exercises like heavy squats and deadlifts, not for all exercises."
+  },
+  {
+    "question": "When should I use lifting straps?",
+    "answer": "Lifting straps are used to secure your grip on the bar during heavy pulling exercises like deadlifts, rows, and shrugs. They should be used when your grip strength is the limiting factor, preventing you from training the target muscles effectively."
+  },
+  {
+    "question": "Why is grip strength important?",
+    "answer": "Grip strength is crucial for performance in many strength exercises, particularly those involving pulling. It is also a recognized indicator of overall health and has been linked to longevity and a lower risk of chronic disease."
+  },
+  {
+    "question": "What is 'bulking'?",
+    "answer": "Bulking is a phase in which the primary goal is to gain muscle mass. This is achieved by consistently consuming more calories than your body burns (a calorie surplus) and engaging in a progressive strength training program."
+  },
+  {
+    "question": "What is 'cutting'?",
+    "answer": "Cutting is a phase in which the primary goal is to lose body fat while preserving as much muscle mass as possible. This is achieved by consistently consuming fewer calories than your body burns (a calorie deficit) while maintaining a high protein intake and continuing to strength train."
+  },
+  {
+    "question": "What are macronutrients?",
+    "answer": "Macronutrients are the nutrients the body needs in large amounts to provide energy and support bodily functions. The three main macronutrients are protein, carbohydrates, and fats."
+  },
+  {
+    "question": "What is the role of protein in fitness?",
+    "answer": "Protein is essential for muscle repair, recovery, and growth (a process known as muscle protein synthesis). It is made up of amino acids, which are the building blocks of muscle tissue. Active individuals require a higher protein intake."
+  },
+  {
+    "question": "What is the role of carbohydrates in fitness?",
+    "answer": "Carbohydrates are the body's primary and most efficient source of energy. They are stored as glycogen in the muscles and liver and are crucial for fueling high-intensity workouts and aiding in recovery."
+  },
+  {
+    "question": "What is the role of dietary fats in fitness?",
+    "answer": "Dietary fats are essential for many bodily functions, including hormone production (such as testosterone), vitamin absorption, and maintaining cell structure. Healthy fats also provide a concentrated source of energy."
+  },
+  {
+    "question": "How much protein do I need per day?",
+    "answer": "For active individuals looking to build muscle, a common recommendation is to consume between 1.6 to 2.2 grams of protein per kilogram of body weight (or about 0.7 to 1.0 grams per pound)."
+  },
+  {
+    "question": "What are good sources of protein?",
+    "answer": "Excellent sources of protein include lean meats (chicken, turkey, beef), fish, eggs, dairy products (Greek yogurt, cottage cheese), legumes (beans, lentils), tofu, and protein supplements like whey or casein."
+  },
+  {
+    "question": "What is the difference between simple and complex carbohydrates?",
+    "answer": "Simple carbohydrates are quickly digested sugars that provide a rapid source of energy (e.g., fruit, white bread). Complex carbohydrates are starches and fibers that digest more slowly, providing a sustained release of energy (e.g., oats, brown rice, vegetables)."
+  },
+  {
+    "question": "What are good sources of complex carbohydrates?",
+    "answer": "Good sources of complex carbohydrates include whole grains like oats, brown rice, and quinoa, as well as starchy vegetables like sweet potatoes and corn, and legumes like beans and lentils."
+  },
+  {
+    "question": "What are healthy fats?",
+    "answer": "Healthy fats are typically unsaturated fats, including monounsaturated and polyunsaturated fats. They are beneficial for heart health and reducing inflammation. Sources include avocados, nuts, seeds, olive oil, and fatty fish."
+  },
+  {
+    "question": "What are some sources of healthy fats?",
+    "answer": "Sources of healthy fats include avocados, olive oil, nuts (almonds, walnuts), seeds (chia, flax), and fatty fish like salmon, mackerel, and sardines, which are rich in omega-3 fatty acids."
+  },
+  {
+    "question": "What are saturated fats?",
+    "answer": "Saturated fats are typically solid at room temperature and are found in animal products like red meat and butter, as well as tropical oils like coconut oil. They should generally be consumed in moderation as part of a balanced diet."
+  },
+  {
+    "question": "What are trans fats?",
+    "answer": "Trans fats are a type of unsaturated fat that are particularly bad for health. Artificial trans fats, found in some processed and fried foods, raise bad (LDL) cholesterol and lower good (HDL) cholesterol, increasing the risk of heart disease. They should be avoided."
+  },
+  {
+    "question": "Why is hydration important for fitness?",
+    "answer": "Hydration is crucial for performance and health. Water helps regulate body temperature, transport nutrients, and lubricate joints. Even mild dehydration can significantly impair strength, endurance, and cognitive function."
+  },
+  {
+    "question": "How much water should I drink per day?",
+    "answer": "A general guideline is to drink around 2-4 liters (about 8-16 cups) of water per day, but needs vary based on activity level, climate, and body size. A good indicator of hydration is having pale yellow urine."
+  },
+  {
+    "question": "What are electrolytes?",
+    "answer": "Electrolytes are essential minerals like sodium, potassium, and magnesium that are lost through sweat. They are vital for maintaining fluid balance, muscle function (including preventing cramps), and nerve signaling."
+  },
+  {
+    "question": "When should I consider an electrolyte drink?",
+    "answer": "For workouts lasting less than an hour, water is usually sufficient. For intense workouts lasting longer than 60-90 minutes, or in very hot conditions, an electrolyte drink can be beneficial to replenish lost minerals and prevent dehydration."
+  },
+  {
+    "question": "What is a calorie?",
+    "answer": "A calorie is a unit of energy. In nutrition, calories refer to the energy people get from the food and drink they consume, as well as the energy they expend in physical activity. Your body needs calories to function."
+  },
+  {
+    "question": "What is a calorie deficit?",
+    "answer": "A calorie deficit occurs when you consistently consume fewer calories than your body burns. This is the fundamental requirement for weight loss, as it forces your body to use stored fat for energy."
+  },
+  {
+    "question": "What is a calorie surplus?",
+    "answer": "A calorie surplus occurs when you consistently consume more calories than your body burns. This is necessary for gaining weight and is the primary strategy used during a 'bulking' phase to build muscle."
+  },
+  {
+    "question": "What are 'maintenance calories'?",
+    "answer": "Maintenance calories refer to the number of calories you need to consume each day to maintain your current body weight without gaining or losing. It is equal to your Total Daily Energy Expenditure (TDEE)."
+  },
+  {
+    "question": "What is TDEE?",
+    "answer": "TDEE stands for Total Daily Energy Expenditure. It is the total number of calories you burn in a 24-hour period. It is composed of your Basal Metabolic Rate (BMR), the thermic effect of food (TEF), and your physical activity level."
+  },
+  {
+    "question": "What is BMR?",
+    "answer": "BMR, or Basal Metabolic Rate, is the number of calories your body needs to perform its most basic, life-sustaining functions while at rest, such as breathing, circulation, and cell production."
+  },
+  {
+    "question": "What should I eat before a workout?",
+    "answer": "A good pre-workout meal, eaten 1-3 hours before exercise, should consist primarily of complex carbohydrates for sustained energy and a moderate amount of protein. A simple example is oatmeal with a scoop of protein powder."
+  },
+  {
+    "question": "What should I eat after a workout?",
+    "answer": "A post-workout meal should be consumed within 1-2 hours of finishing your session. It should contain a significant amount of protein to aid muscle repair and carbohydrates to replenish depleted glycogen stores. A protein shake and a banana is a common choice."
+  },
+  {
+    "question": "What is 'nutrient timing'?",
+    "answer": "Nutrient timing is the concept of strategically consuming certain nutrients, particularly protein and carbs, around your workout window (before, during, and after) to maximize performance, recovery, and muscle growth. Its importance is debated, but post-workout protein is generally beneficial."
+  },
+  {
+    "question": "What are dietary supplements?",
+    "answer": "Dietary supplements are products intended to supplement the diet. They can include vitamins, minerals, herbs, amino acids, and other substances. Common fitness supplements include protein powder, creatine, and pre-workouts."
+  },
+  {
+    "question": "What is whey protein?",
+    "answer": "Whey protein is a high-quality, fast-digesting protein derived from milk during the cheese-making process. It is rich in essential amino acids and is commonly used after workouts to support muscle recovery and growth."
+  },
+  {
+    "question": "What is the difference between whey concentrate, isolate, and hydrolysate?",
+    "answer": "Whey concentrate is the least processed form, containing some fat and lactose. Isolate is further processed to remove most fat and lactose, resulting in a higher protein percentage. Hydrolysate is pre-digested for the fastest absorption."
+  },
+  {
+    "question": "What is casein protein?",
+    "answer": "Casein is the other protein found in milk. It is slow-digesting, forming a gel in the stomach that provides a steady release of amino acids over several hours. It's often taken before bed to aid overnight recovery."
+  },
+  {
+    "question": "What is creatine?",
+    "answer": "Creatine is one of the most well-researched supplements. It helps your muscles produce energy (ATP) during high-intensity exercise, such as heavy lifting and sprinting. It can lead to increased strength, power, and muscle mass."
+  },
+  {
+    "question": "Is creatine safe?",
+    "answer": "Yes, creatine monohydrate is considered very safe for most healthy individuals when taken at recommended dosages (typically 3-5 grams per day). It is one of the most effective and studied supplements available."
+  },
+  {
+    "question": "What are BCAAs?",
+    "answer": "BCAAs, or Branched-Chain Amino Acids, are three essential amino acids: leucine, isoleucine, and valine. While they play a role in muscle protein synthesis, most people who consume enough dietary protein do not need to supplement with BCAAs."
+  },
+  {
+    "question": "What is a pre-workout supplement?",
+    "answer": "A pre-workout supplement is a multi-ingredient formula designed to boost energy and athletic performance. Common ingredients include caffeine for energy, beta-alanine to reduce fatigue, and citrulline for improved blood flow."
+  },
+  {
+    "question": "What are micronutrients?",
+    "answer": "Micronutrients are the vitamins and minerals that the body needs in small amounts. They are essential for a wide range of physiological functions, including energy production, immune function, and bone health."
+  },
+  {
+    "question": "Why is Vitamin D important for fitness?",
+    "answer": "Vitamin D is crucial for bone health because it helps the body absorb calcium. It also plays a significant role in immune function and has been linked to muscle strength and testosterone levels."
+  },
+  {
+    "question": "Why is iron important for athletes?",
+    "answer": "Iron is a vital component of hemoglobin, the protein in red blood cells that transports oxygen to your muscles. An iron deficiency can lead to fatigue, shortness of breath, and impaired athletic performance."
+  },
+  {
+    "question": "Why is magnesium important for fitness?",
+    "answer": "Magnesium is involved in over 300 biochemical reactions in the body, including energy production, muscle contraction, and protein synthesis. It can also help with sleep and reduce muscle cramps."
+  },
+  {
+    "question": "What is the role of zinc in the body?",
+    "answer": "Zinc is an essential mineral that supports immune function, wound healing, and protein synthesis. It also plays a key role in the production of hormones like testosterone, which is important for muscle growth."
+  },
+  {
+    "question": "What is a balanced diet?",
+    "answer": "A balanced diet is one that provides the body with all the essential nutrients, including macronutrients and micronutrients, in the correct proportions to maintain health and support physical activity. It emphasizes whole, unprocessed foods."
+  },
+  {
+    "question": "What are 'whole foods'?",
+    "answer": "Whole foods are foods that are in their natural or minimally processed state. Examples include fruits, vegetables, lean meats, whole grains, nuts, and seeds. They are typically more nutrient-dense than processed foods."
+  },
+  {
+    "question": "What are processed foods?",
+    "answer": "Processed foods are foods that have been altered from their natural state for safety, convenience, or taste. Highly processed foods, like sugary snacks and fast food, are often high in calories, sugar, and unhealthy fats, and low in nutrients."
+  },
+  {
+    "question": "What is meal prepping?",
+    "answer": "Meal prepping is the practice of preparing whole meals or dishes ahead of schedule. It is a popular strategy for those looking to control their diet for fitness goals, as it helps with portion control and ensures healthy meals are readily available."
+  },
+  {
+    "question": "What is flexible dieting or IIFYM?",
+    "answer": "Flexible dieting, or 'If It Fits Your Macros' (IIFYM), is an approach to nutrition that focuses on meeting daily macronutrient targets (protein, carbs, fat) rather than restricting specific foods. It allows for more flexibility in food choices."
+  },
+  {
+    "question": "What is intermittent fasting?",
+    "answer": "Intermittent fasting is an eating pattern that cycles between periods of eating and fasting. Common methods include the 16/8 method, where you fast for 16 hours and eat within an 8-hour window. It's a tool for managing calorie intake, not a magic diet."
+  },
+  {
+    "question": "What is the ketogenic diet?",
+    "answer": "The ketogenic (keto) diet is a very low-carbohydrate, high-fat diet. By drastically reducing carbs, the body enters a metabolic state called ketosis, where it burns fat for fuel instead of glucose. It is a highly restrictive diet."
+  },
+  {
+    "question": "What is the Paleo diet?",
+    "answer": "The Paleo diet is based on foods presumed to have been eaten by early humans, consisting chiefly of meat, fish, vegetables, and fruit, and excluding dairy, grain products, and processed food."
+  },
+  {
+    "question": "How does alcohol affect fitness?",
+    "answer": "Alcohol can negatively impact fitness by impairing muscle protein synthesis, causing dehydration, disrupting sleep (which is crucial for recovery), and providing 'empty' calories that can contribute to fat gain. It should be consumed in moderation."
+  },
+  {
+    "question": "Why is recovery important for fitness?",
+    "answer": "Recovery is when the body adapts to the stress of exercise. During recovery, muscles repair and grow stronger. Without adequate recovery, you risk overtraining, injury, and performance decline. Key components include sleep, nutrition, and rest days."
+  },
+  {
+    "question": "How important is sleep for muscle growth?",
+    "answer": "Sleep is critically important for muscle growth and recovery. During deep sleep, the body releases growth hormone and carries out most of its tissue repair. Consistently poor sleep can severely hinder your fitness progress."
+  },
+  {
+    "question": "How many hours of sleep do active people need?",
+    "answer": "While individual needs vary, most active adults need 7-9 hours of quality sleep per night for optimal recovery, hormone regulation, and performance. Athletes may find they function best on the higher end of this range."
+  },
+  {
+    "question": "What is DOMS (Delayed Onset Muscle Soreness)?",
+    "answer": "DOMS is the muscle pain and stiffness felt 24 to 72 hours after strenuous or unaccustomed exercise. It is caused by microscopic tears in the muscle fibers, which is a normal part of the muscle-building process."
+  },
+  {
+    "question": "How can I reduce muscle soreness (DOMS)?",
+    "answer": "To reduce DOMS, you can try light activity (active recovery), gentle stretching, foam rolling, getting adequate protein and hydration, and ensuring you get enough sleep. While uncomfortable, DOMS is temporary and a sign your muscles are adapting."
+  },
+  {
+    "question": "What is active recovery?",
+    "answer": "Active recovery refers to low-intensity exercise performed on rest days or after a strenuous workout. Activities like walking, light jogging, swimming, or gentle yoga can help increase blood flow, reduce muscle soreness, and aid in recovery."
+  },
+  {
+    "question": "What is foam rolling?",
+    "answer": "Foam rolling is a form of self-myofascial release, a type of self-massage used to release muscle tightness or trigger points. By applying pressure to specific points on your muscles, you can aid in the recovery of muscles."
+  },
+  {
+    "question": "What is the RICE method for injuries?",
+    "answer": "The RICE method is a common first-aid treatment for acute soft tissue injuries like sprains and strains. It stands for Rest, Ice, Compression, and Elevation, and is designed to reduce pain and swelling."
   },
   {
     "question": "What is the difference between a strain and a sprain?",
-    "answer": "A strain is an injury to a muscle or a tendon (the tissue that connects muscle to bone). A sprain is an injury to a ligament (the tissue that connects bones to each other at a joint)."
+    "answer": "A strain is an injury to a muscle or a tendon (the tissue connecting muscle to bone). A sprain is an injury to a ligament (the tissue connecting bone to bone at a joint). Both can result from overstretching or tearing."
   },
   {
-    "question": "What is anterior pelvic tilt (APT)?",
-    "answer": "Anterior pelvic tilt is a common postural issue where the front of the pelvis rotates forward, and the back of the pelvis rises. It is often caused by tight hip flexors and weak glutes and abdominals."
+    "question": "What is yoga?",
+    "answer": "Yoga is a mind and body practice that combines physical postures, breathing techniques, and meditation or relaxation. It can improve flexibility, balance, strength, and stress reduction."
   },
   {
-    "question": "What is carb cycling?",
-    "answer": "Carb cycling is a dietary approach where you alternate carbohydrate intake on a daily, weekly, or monthly basis. It typically involves high-carb days to fuel intense workouts and low-carb days to promote fat loss."
+    "question": "What are the fitness benefits of yoga?",
+    "answer": "The fitness benefits of yoga include increased flexibility and range of motion, improved balance and stability, enhanced core strength, reduced stress and anxiety, and a better mind-body connection."
   },
   {
-    "question": "What does the supplement citrulline malate do?",
-    "answer": "Citrulline malate is a supplement known to increase nitric oxide production in the body. This can improve blood flow to muscles, leading to better performance, reduced fatigue, and less muscle soreness during high-intensity training."
+    "question": "What is Pilates?",
+    "answer": "Pilates is a low-impact exercise method that focuses on strengthening the core muscles, improving postural alignment, and enhancing flexibility. It emphasizes controlled, precise movements."
   },
   {
-    "question": "What is the role of magnesium for active people?",
-    "answer": "Magnesium plays a crucial role in energy production, muscle contraction, nerve function, and blood glucose control. Athletes may have higher needs due to losses through sweat."
+    "question": "What is the difference between yoga and Pilates?",
+    "answer": "While both improve core strength and flexibility, Pilates is more focused on precise muscular control and spinal stability. Yoga often incorporates a spiritual and meditative component through breathwork and sustained poses."
   },
   {
-    "question": "What is the Valsalva maneuver's risk?",
-    "answer": "While it stabilizes the spine, the Valsalva maneuver can cause a rapid increase in blood pressure and intra-thoracic pressure, which can be risky for individuals with cardiovascular conditions. It can also reduce blood flow back to the heart."
+    "question": "How do I set realistic fitness goals?",
+    "answer": "To set realistic fitness goals, use the SMART framework: Specific (what exactly do you want to achieve?), Measurable (how will you track progress?), Achievable (is it within your reach?), Relevant (why is it important to you?), and Time-bound (when will you achieve it?)."
   },
   {
-    "question": "What is a 'pump' in weightlifting?",
-    "answer": "A 'pump' is the temporary increase in muscle size that occurs during weight training. It's caused by an accumulation of fluid (plasma) and metabolic byproducts in the muscle cells, a phenomenon known as transient hypertrophy."
+    "question": "How can I stay motivated to work out?",
+    "answer": "To stay motivated, find an activity you genuinely enjoy, set small and achievable goals, track your progress, work out with a friend, schedule your workouts like appointments, and remember your 'why'—the reason you started."
   },
   {
-    "question": "What is the difference between a sumo and conventional deadlift?",
-    "answer": "In a conventional deadlift, the feet are about hip-width apart with the grip outside the legs. In a sumo deadlift, the feet are in a much wider stance with the grip inside the legs. The sumo stance puts more emphasis on the hips and glutes."
+    "question": "What is 'gym anxiety'?",
+    "answer": "Gym anxiety is a feeling of fear or intimidation in a gym environment. It can be caused by feeling self-conscious, being unsure of how to use equipment, or comparing oneself to others. It is very common, especially for beginners."
   },
   {
-    "question": "What is the function of the hamstrings?",
-    "answer": "The hamstring muscle group, located on the back of the thigh, is primarily responsible for knee flexion (bending the knee) and hip extension (moving the leg backward)."
+    "question": "How can I overcome gym anxiety?",
+    "answer": "To overcome gym anxiety, try going during off-peak hours, having a pre-planned workout, wearing clothes you feel comfortable in, listening to music, and starting with familiar exercises or machines. Remember that most people are focused on their own workout."
   },
   {
-    "question": "What are antagonist muscles?",
-    "answer": "Antagonist muscles are pairs of muscles that work in opposition to each other. When one muscle (the agonist) contracts, the antagonist muscle relaxes or lengthens. For example, the biceps and triceps are an antagonist pair."
+    "question": "Is it better to work out in the morning or evening?",
+    "answer": "The best time to work out is whenever you can do it consistently. Both morning and evening workouts have benefits. Morning workouts can boost your energy for the day, while some people feel stronger in the afternoon or evening. Consistency is the most important factor."
   },
   {
-    "question": "What is a gainer supplement?",
-    "answer": "A gainer, or mass gainer, is a high-calorie supplement that contains a mix of protein, carbohydrates, and fats. It is designed to help individuals who struggle to consume enough calories to gain weight and muscle mass."
+    "question": "How do I start a fitness routine as a beginner?",
+    "answer": "As a beginner, start slow and focus on consistency. Begin with 2-3 workouts per week, focusing on full-body exercises with proper form. A mix of light cardio and basic strength training is a great starting point. Listen to your body and prioritize recovery."
   },
   {
-    "question": "How can you measure body fat percentage?",
-    "answer": "Body fat percentage can be measured using various methods, including skinfold calipers, bioelectrical impedance analysis (BIA) scales, DEXA (Dual-Energy X-ray Absorptiometry) scans, hydrostatic weighing, and air displacement plethysmography (Bod Pod)."
+    "question": "What is 'functional fitness'?",
+    "answer": "Functional fitness involves training your body for the activities performed in daily life. The exercises mimic common movements like squatting, pushing, pulling, and lifting, which helps improve overall strength, stability, and quality of life."
   },
   {
-    "question": "What is the principle of specificity in training?",
-    "answer": "The principle of specificity states that the training adaptations you achieve are specific to the type of training you perform. For example, to become a better runner, you must run; lifting weights will help but won't directly improve your running mechanics as much."
+    "question": "What is the difference between weight loss and fat loss?",
+    "answer": "Weight loss refers to a decrease in your overall body weight, which can come from fat, muscle, and water. Fat loss specifically refers to the reduction of body fat. The goal should always be to maximize fat loss while preserving muscle."
   },
   {
-    "question": "What is the purpose of a lifting strap?",
-    "answer": "Lifting straps are used to wrap around a barbell or dumbbell to secure your grip. They are used when your grip strength becomes the limiting factor in a heavy pulling exercise, such as deadlifts or heavy rows, allowing you to lift more weight."
+    "question": "What is Body Mass Index (BMI)?",
+    "answer": "BMI is a measure of body fat based on height and weight. While it can be a useful screening tool for the general population, it does not distinguish between fat and muscle mass, so it can be inaccurate for athletic or muscular individuals."
   },
   {
-    "question": "What is the difference between heat exhaustion and heatstroke?",
-    "answer": "Heat exhaustion is a condition whose symptoms may include heavy sweating and a rapid pulse, a result of your body overheating. Heatstroke is a more severe condition caused by your body's failure to regulate its temperature, and it requires immediate emergency treatment."
+    "question": "How can I measure my body fat percentage?",
+    "answer": "Body fat percentage can be measured through various methods with varying accuracy. Common methods include skinfold calipers, bioelectrical impedance analysis (BIA) scales, hydrostatic weighing, and DEXA scans, which are considered the gold standard."
   },
   {
-    "question": "What is the glycemic load (GL)?",
-    "answer": "Glycemic load (GL) is a measure that takes into account the amount of carbohydrate in a portion of food together with how quickly it raises blood glucose levels. It is calculated by multiplying the food's glycemic index by the amount of carbohydrate it contains."
+    "question": "What is 'spot reduction'?",
+    "answer": "Spot reduction is the myth that you can lose fat from a specific area of your body by exercising that area. For example, doing crunches to lose belly fat. Fat loss occurs systemically across the entire body and cannot be targeted."
   },
   {
-    "question": "What is insulin and what is its role?",
-    "answer": "Insulin is a hormone produced by the pancreas that allows your body to use sugar (glucose) from carbohydrates for energy or to store it for future use. It helps keep your blood sugar level from getting too high or too low."
+    "question": "What are some common fitness myths?",
+    "answer": "Common fitness myths include 'spot reduction,' the idea that 'women will get bulky from lifting weights,' that 'you need to do hours of cardio for fat loss,' and that 'muscle can turn into fat.' These are all untrue."
   },
   {
-    "question": "What is insulin sensitivity?",
-    "answer": "Insulin sensitivity refers to how effectively your body's cells respond to insulin. High insulin sensitivity allows the cells of the body to use blood glucose more effectively, reducing blood sugar. Exercise is a potent way to improve insulin sensitivity."
+    "question": "Will lifting weights make women bulky?",
+    "answer": "No, this is a common myth. Women do not produce enough testosterone to build large, bulky muscles like men. Strength training will help women build lean, toned muscle, increase metabolism, and improve bone density."
   },
   {
-    "question": "What is linear periodization?",
-    "answer": "Linear periodization is a training model where the volume of training gradually decreases while the intensity gradually increases over a period of time (a macrocycle). It is a straightforward way to plan for a specific competition or peak event."
+    "question": "How long does it take to see fitness results?",
+    "answer": "The timeline for results varies greatly depending on genetics, consistency, diet, and the type of training. You may start to 'feel' better within a few weeks. Noticeable changes in strength can occur in 4-6 weeks, while visible changes in body composition may take 8-12 weeks or more of consistent effort."
   },
   {
-    "question": "What is undulating periodization?",
-    "answer": "Undulating periodization is a training model that involves more frequent variations in volume and intensity within a shorter timeframe, such as on a weekly or even daily basis (e.g., a heavy day, a light day, and a medium day within the same week)."
+    "question": "Is it okay to exercise every day?",
+    "answer": "It depends on the intensity. It is generally safe to do some form of light to moderate activity every day, like walking. However, it's crucial to have rest days from high-intensity training to allow your body to recover and prevent overtraining."
   },
   {
-    "question": "What is the talk test for exercise intensity?",
-    "answer": "The talk test is a simple method to gauge exercise intensity. If you can talk comfortably, you're at a low to moderate intensity. If you can only speak a few words at a time, you're at a vigorous intensity."
+    "question": "What should I do on my rest days?",
+    "answer": "Rest days are for recovery. You can engage in passive recovery (complete rest) or active recovery, which involves light activities like walking, stretching, or gentle yoga. Proper nutrition and hydration are also key on rest days."
   },
   {
-    "question": "What are compound sets?",
-    "answer": "A compound set is similar to a superset but involves performing two different exercises for the same muscle group back-to-back with no rest. For example, performing a set of bench press immediately followed by a set of dumbbell flyes."
+    "question": "Can I build muscle and lose fat at the same time?",
+    "answer": "Yes, this process is called body recomposition. It is most achievable for beginners, individuals returning from a long break, or those with significant body fat to lose. It requires a high-protein diet, a small calorie deficit, and a progressive strength training program."
   },
   {
-    "question": "What is the function of the quadriceps?",
-    "answer": "The quadriceps femoris is a group of four muscles on the front of the thigh. Their main function is knee extension (straightening the leg), and they are also involved in hip flexion. They are crucial for walking, running, jumping, and squatting."
+    "question": "What is circuit training?",
+    "answer": "Circuit training is a workout style where you perform a series of different exercises in a sequence, with minimal rest between each exercise. After completing one full 'circuit,' you take a longer rest before repeating. It's a time-efficient way to combine strength and cardio."
   },
   {
-    "question": "What is the difference between lactic acid and lactate?",
-    "answer": "In the body, lactic acid almost immediately releases a proton (a hydrogen ion) and becomes its conjugate base, lactate. So, during exercise, it is lactate and hydrogen ions that accumulate, not lactic acid itself. The hydrogen ions contribute to the 'burn' and fatigue."
+    "question": "What is Tabata?",
+    "answer": "Tabata is a specific type of HIIT protocol that consists of 20 seconds of ultra-intense exercise followed by 10 seconds of rest, repeated for eight rounds, totaling four minutes. It is a very demanding and effective workout."
   },
   {
-    "question": "What is a powerlifting 'peaking' phase?",
-    "answer": "Peaking is the final phase of a powerlifter's training cycle before a competition. It involves very low volume (few reps and sets) but very high intensity (heavy weight), designed to dissipate fatigue and maximize strength for meet day."
+    "question": "What is the difference between mobility and flexibility?",
+    "answer": "Flexibility is the ability of a muscle to passively lengthen. Mobility is the ability of a joint to actively move through its full range of motion. Good mobility requires flexibility, but also strength and motor control."
   },
   {
-    "questionating": "What is the role of fascia in the body?",
-    "answer": "Fascia is a web of connective tissue that surrounds and holds every organ, blood vessel, bone, nerve fiber, and muscle in place. Healthy fascia is flexible and glides smoothly, but it can become tight or restricted due to inactivity, injury, or overuse."
+    "question": "How can I improve my posture?",
+    "answer": "To improve posture, focus on strengthening the muscles of your upper back (like with rows) and your core (with planks), while also stretching tight muscles in your chest and hip flexors. Be mindful of your posture throughout the day."
   },
   {
-    "question": "What is the purpose of 'deloading' in a training program?",
-    "answer": "Deloading involves a planned reduction in training volume and/or intensity for a short period, typically a week. Its purpose is to allow for full recovery of the body and nervous system, prevent overtraining, and help break through performance plateaus."
+    "question": "What are plyometrics?",
+    "answer": "Plyometrics, or jump training, are exercises that involve rapid and repeated stretching and contracting of muscles to increase power. Examples include box jumps, burpees, and squat jumps. They are high-impact and require a good fitness base."
+  },
+  {
+    "question": "What is agility?",
+    "answer": "Agility is the ability to change the body's position efficiently and requires the integration of isolated movement skills using a combination of balance, coordination, speed, and reflexes. Agility drills often use cones or ladders."
+  },
+  {
+    "question": "What is balance?",
+    "answer": "Balance is the ability to maintain the body's center of mass over its base of support. It is a key component of fitness that can be improved with exercises like single-leg stands, yoga, and stability ball exercises."
+  },
+  {
+    "question": "What is coordination?",
+    "answer": "Coordination is the ability to use different parts of the body together smoothly and efficiently. Activities that challenge hand-eye or foot-eye coordination, such as throwing and catching or complex dance steps, can improve this skill."
+  },
+  {
+    "question": "What is power in fitness?",
+    "answer": "Power is the ability to exert maximum force in the shortest amount of time. It is a combination of strength and speed. Exercises like Olympic lifts, kettlebell swings, and plyometrics are excellent for developing power."
+  },
+  {
+    "question": "What is reaction time?",
+    "answer": "Reaction time is the speed at which you can respond to an external stimulus. It is a crucial skill in many sports and can be trained with specific drills, like drop-and-catch exercises."
+  },
+  {
+    "question": "What is speed in fitness?",
+    "answer": "Speed is the ability to move quickly across the ground or move limbs rapidly. It is a key component of athleticism and can be improved through sprint training, plyometrics, and strength training."
+  },
+  {
+    "question": "What is cross-training?",
+    "answer": "Cross-training is the practice of incorporating different types of exercise into your routine to improve overall performance and reduce the risk of overuse injuries. For example, a runner might incorporate swimming and strength training."
+  },
+  {
+    "question": "What is periodization?",
+    "answer": "Periodization is the systematic planning of athletic or physical training. It involves progressing through different cycles of training specificity, intensity, and volume to optimize performance and prevent overtraining. Common types are linear and undulating periodization."
+  },
+  {
+    "question": "What are the best exercises for cardiovascular endurance?",
+    "answer": "The best exercises for cardiovascular endurance are those that can be sustained for a long period, such as running, cycling, swimming, rowing, and brisk walking. High-Intensity Interval Training (HIIT) is also extremely effective for improving aerobic capacity."
+  },
+  {
+    "question": "How can I test my one-rep max (1RM) safely?",
+    "answer": "To test your 1RM safely, perform a thorough warm-up, then gradually increase the weight over several sets with low reps. Use a spotter for exercises like the bench press. Alternatively, you can use a 1RM calculator based on the weight you can lift for more reps (e.g., a 5-rep max)."
+  },
+  {
+    "question": "Are there alternatives to static stretching for a cool-down?",
+    "answer": "Yes, besides static stretching, a cool-down can include foam rolling to release muscle tightness or gentle yoga flows. The main goal is to gradually lower your heart rate and relax the muscles that were worked."
+  },
+  {
+    "question": "How does body composition affect metabolism?",
+    "answer": "Body composition significantly affects metabolism. Muscle tissue is more metabolically active than fat tissue, meaning it burns more calories at rest. Therefore, increasing your muscle mass through strength training can boost your basal metabolic rate (BMR)."
+  },
+  {
+    "question": "Can I just focus on one component of fitness, like strength?",
+    "answer": "While you can specialize, a well-rounded fitness program should address all five components: cardiovascular endurance, muscular strength, muscular endurance, flexibility, and body composition. Neglecting any one area can lead to imbalances and increase injury risk."
+  },
+  {
+    "question": "How do I apply the Frequency part of the FITT principle?",
+    "answer": "Applying 'Frequency' means deciding how many days per week you will exercise. For general health, aim for 3-5 days. For specific goals, like strength training, this could also refer to how often you train a specific muscle group, often 1-3 times per week."
+  },
+  {
+    "question": "How do I measure Intensity in the FITT principle?",
+    "answer": "Intensity can be measured in several ways. For cardio, it can be a percentage of your max heart rate or using the Rate of Perceived Exertion (RPE) scale. For strength training, it's often a percentage of your 1RM or how close you train to failure."
+  },
+  {
+    "question": "What is the Rate of Perceived Exertion (RPE) scale?",
+    "answer": "The RPE scale is a subjective measure of exercise intensity, typically ranging from 1 (very light) to 10 (maximal effort). It's a useful tool to gauge how hard you are working without needing a heart rate monitor."
+  },
+  {
+    "question": "How does progressive overload work for cardio?",
+    "answer": "For cardio, progressive overload can be applied by increasing the duration of your session (time), increasing the speed or resistance (intensity), or increasing the number of sessions per week (frequency)."
+  },
+  {
+    "question": "What happens to my body during an aerobic workout?",
+    "answer": "During aerobic exercise, your heart beats faster to pump more oxygenated blood to your muscles. Your breathing becomes deeper and more rapid to take in more oxygen. Your body uses stored carbohydrates (glycogen) and fat for energy."
+  },
+  {
+    "question": "What happens to my body during an anaerobic workout?",
+    "answer": "During anaerobic exercise, your muscles work so hard that the demand for oxygen is greater than the supply. Your body breaks down glucose for energy without using oxygen, producing lactate as a byproduct. This provides powerful but short-lived energy."
+  },
+  {
+    "question": "What is a good dynamic stretch for the legs?",
+    "answer": "Good dynamic stretches for the legs include leg swings (forward-backward and side-to-side), walking lunges with a torso twist, and high knees. These movements warm up the hips, quads, hamstrings, and glutes."
+  },
+  {
+    "question": "Can static stretching before a workout hurt performance?",
+    "answer": "Some research suggests that prolonged static stretching (holding stretches for over 60 seconds) immediately before explosive activities may slightly decrease power output. For most people, short static holds are fine, but dynamic stretching is preferred for a warm-up."
+  },
+  {
+    "question": "What is an example of a HIIT workout?",
+    "answer": "A classic example of a HIIT workout on a treadmill would be: 30 seconds of all-out sprinting, followed by 60 seconds of walking or light jogging. Repeat this cycle 8-10 times for a total workout of 12-15 minutes."
+  },
+  {
+    "question": "Is LISS or HIIT better for fat loss?",
+    "answer": "Both are effective. HIIT burns more calories in a shorter amount of time and creates a greater 'afterburn' effect (EPOC). LISS is less stressful on the body and can be done more frequently. The best approach often involves a combination of both."
+  },
+  {
+    "question": "What is Zone 1 of heart rate training?",
+    "answer": "Zone 1 (50-60% of MHR) is a very light intensity zone. It's primarily used for warm-ups, cool-downs, and active recovery. It helps improve blood flow and prepare the body for or help it recover from exercise."
+  },
+  {
+    "question": "What is Zone 5 of heart rate training?",
+    "answer": "Zone 5 (90-100% of MHR) is your maximum effort. This zone is sustainable for only very short bursts and is used to develop speed and power. Training in this zone is very demanding and should be done sparingly."
+  },
+  {
+    "question": "What is shin splints and how can runners prevent it?",
+    "answer": "Shin splints is a common term for pain along the shin bone (tibia). Runners can help prevent it by wearing proper footwear, avoiding sudden increases in training volume or intensity, strengthening calf muscles, and stretching."
+  },
+  {
+    "question": "What is the 'talk test' for cardio intensity?",
+    "answer": "The talk test is a simple way to measure intensity. During moderate-intensity activity, you should be able to talk but not sing. During vigorous-intensity activity, you will not be able to say more than a few words without pausing for a breath."
+  },
+  {
+    "question": "What are the main muscles worked in a squat?",
+    "answer": "The primary muscles worked in a squat are the quadriceps, hamstrings, and gluteus maximus. The core muscles, calves, and back muscles also work to stabilize the body during the movement."
+  },
+  {
+    "question": "What muscles does the deadlift work?",
+    "answer": "The deadlift is a full-body exercise that works numerous muscles, including the glutes, hamstrings, quadriceps, entire back (erector spinae, lats), core, and grip muscles. It is one of the most effective exercises for building overall strength."
+  },
+  {
+    "question": "What is a 'bro split'?",
+    "answer": "A 'bro split' is a slang term for a bodybuilding-style workout routine where you train only one or two muscle groups per day (e.g., Monday is Chest Day, Tuesday is Back Day). This allows for high volume on each muscle group but has a low training frequency."
+  },
+  {
+    "question": "What is 'time under tension' (TUT)?",
+    "answer": "Time under tension refers to the total amount of time a muscle is held under strain during a set. Increasing TUT, for example by using a slow and controlled tempo, can be a stimulus for muscle hypertrophy."
+  },
+  {
+    "question": "What is the difference between a conventional and sumo deadlift?",
+    "answer": "In a conventional deadlift, the feet are hip-width apart with the hands gripping the bar outside the legs. In a sumo deadlift, the feet are much wider and the hands grip the bar inside the legs. The sumo stance typically emphasizes the hips and glutes more."
   },
   {
     "question": "What is the difference between a high-bar and low-bar squat?",
-    "answer": "The primary difference is the placement of the barbell on the back. In a high-bar squat, the bar rests on top of the trapezius muscles, promoting an upright torso. In a low-bar squat, the bar rests lower, on the rear deltoids, which requires more forward lean and typically allows for lifting heavier weight."
+    "answer": "The difference is the placement of the barbell on the back. In a high-bar squat, the bar rests on the upper trapezius, promoting an upright torso. In a low-bar squat, the bar rests lower, on the rear deltoids, which involves more forward lean and often allows for heavier weight."
   },
   {
-    "question": "What is 'cardiovascular drift'?",
-    "answer": "Cardiovascular drift is the phenomenon where heart rate gradually increases during prolonged, steady-state exercise, even if the intensity remains the same. It is often caused by dehydration and an increase in core body temperature."
+    "question": "What are 'stabilizer muscles'?",
+    "answer": "Stabilizer muscles are muscles that support the body and joints during movement, without being primarily responsible for moving the load. Free weight exercises are excellent for developing stabilizer muscles, which is crucial for injury prevention."
   },
   {
-    "question": "What is the difference between active and passive recovery?",
-    "answer": "Passive recovery involves complete rest, with no physical activity. Active recovery involves low-intensity exercise after a workout or on a rest day, which can help reduce muscle soreness and improve circulation."
+    "question": "What is the function of the core muscles?",
+    "answer": "The core muscles, which include the abdominals, obliques, and lower back, are responsible for stabilizing the spine and pelvis. A strong core is the foundation for almost all athletic movements and helps prevent lower back pain."
   },
   {
-    "question": "What are eccentric hooks or 'weight releasers'?",
-    "answer": "Eccentric hooks are attachments that add extra weight to the barbell for the eccentric (lowering) phase of a lift only. The hooks release at the bottom of the movement, allowing the lifter to perform the concentric (lifting) phase with a lighter, more manageable weight."
+    "question": "What is an 'agonist' muscle?",
+    "answer": "In an exercise, the agonist is the primary muscle responsible for producing the movement. For example, in a bicep curl, the biceps brachii is the agonist muscle."
   },
   {
-    "question": "What is the Q-angle in human anatomy?",
-    "answer": "The Q-angle is the angle formed by a line drawn from the anterior superior iliac spine (a point on the hip bone) to the center of the kneecap, and a second line from the center of the kneecap to the tibial tubercle (a bump on the shin bone). A larger Q-angle can be a risk factor for knee injuries, especially in female athletes."
+    "question": "What is an 'antagonist' muscle?",
+    "answer": "The antagonist muscle is the muscle that opposes the action of the agonist. During the bicep curl, as the bicep (agonist) contracts, the tricep (antagonist) relaxes and lengthens."
   },
   {
-    "question": "What is a ketogenic diet?",
-    "answer": "A ketogenic diet is a very low-carbohydrate, high-fat diet. It involves drastically reducing carbohydrate intake and replacing it with fat, which puts your body into a metabolic state called ketosis, where it burns fat for fuel instead of carbs."
+    "question": "What is 'synergist' muscle?",
+    "answer": "A synergist muscle is a muscle that assists the agonist in performing a movement. For example, during a bench press, the anterior deltoids (front shoulders) act as synergists to the pectoralis major (chest)."
   },
   {
-    "question": "What is the 'sticking point' in a lift?",
-    "answer": "The sticking point is the part of a lift's range of motion where the exercise is most difficult, and where failure is most likely to occur. It's the point of biomechanical disadvantage."
+    "question": "Why do muscles shake during exercise?",
+    "answer": "Muscle shaking during exercise is often a sign of fatigue. It happens when the nervous system can no longer provide a smooth, coordinated signal to the muscle fibers, causing them to contract erratically. It can also happen when learning a new movement."
   },
   {
-    "question": "How does caffeine improve athletic performance?",
-    "answer": "Caffeine is a stimulant that can improve athletic performance by increasing alertness, reducing the perception of effort, and enhancing fat oxidation. It primarily affects the central nervous system."
+    "question": "What is 'muscle memory'?",
+    "answer": "Muscle memory refers to the phenomenon where it is easier to regain a previous level of strength or skill than it was to acquire it initially. This is due to adaptations in both the nervous system and the muscle cells themselves (myonuclei)."
   },
   {
-    "question": "What is the principle of reversibility?",
-    "answer": "The principle of reversibility, often called the 'use it or lose it' principle, states that when you stop training, the fitness adaptations you gained will gradually be lost. The rate of loss depends on the fitness component and how long you have been training."
+    "question": "What is the difference between Type I and Type II muscle fibers?",
+    "answer": "Type I muscle fibers, or slow-twitch fibers, are used for endurance activities as they are resistant to fatigue. Type II muscle fibers, or fast-twitch fibers, are used for short, explosive movements like sprinting and heavy lifting, but they fatigue quickly."
   },
   {
-    "question": "What is the function of the deltoid muscles?",
-    "answer": "The deltoid muscle is the main muscle of the shoulder, divided into three heads: anterior (front), lateral (side), and posterior (rear). Together, they are responsible for lifting the arm in all directions: forward (flexion), to the side (abduction), and to the back (extension)."
+    "question": "Can you change your muscle fiber type?",
+    "answer": "While the overall ratio of Type I to Type II fibers is largely determined by genetics, training can cause some fibers to take on characteristics of the other type. For instance, endurance training can make some Type II fibers behave more like Type I fibers."
   },
   {
-    "question": "What is the difference between a neutral, pronated, and supinated grip?",
-    "answer": "A pronated grip is overhand (palms down/away). A supinated grip is underhand (palms up/towards). A neutral grip is when the palms face each other, like a hammer grip."
+    "question": "What is muscle protein synthesis (MPS)?",
+    "answer": "Muscle protein synthesis is the process by which the body builds new muscle proteins to repair the damage caused by exercise. Consuming adequate protein provides the amino acids necessary for MPS, which is the key driver of muscle growth."
   },
   {
-    "question": "What are accommodating resistance exercises?",
-    "answer": "Accommodating resistance involves using tools like bands or chains on a barbell. This changes the resistance throughout the range of motion, making the lift harder at the top where you are strongest, and easier at the bottom where you are weakest."
+    "question": "What is muscle protein breakdown (MPB)?",
+    "answer": "Muscle protein breakdown is the process of breaking down muscle proteins into amino acids. Both MPS and MPB are always occurring in the body. Muscle growth occurs when the rate of MPS is greater than the rate of MPB over time."
   },
   {
-    "question": "What is the Golgi Tendon Organ (GTO)?",
-    "answer": "The Golgi Tendon Organ is a sensory receptor located in the tendons that senses changes in muscle tension. If tension becomes too high, it triggers a reflex that causes the muscle to relax, protecting it from injury."
+    "question": "What are 'amino acids'?",
+    "answer": "Amino acids are the organic compounds that combine to form proteins. There are 20 different amino acids, nine of which are 'essential amino acids' that the body cannot produce on its own and must be obtained from the diet."
   },
   {
-    "question": "What is reactive strength index (RSI)?",
-    "answer": "Reactive Strength Index is a measure of explosiveness or reactive ability. It is calculated by dividing the height jumped by the time spent on the ground during a drop jump. It's a key metric for assessing plyometric performance."
+    "question": "What is a 'complete protein'?",
+    "answer": "A complete protein is a food source that contains all nine essential amino acids in adequate amounts. Animal products like meat, fish, eggs, and dairy are complete proteins. Some plant sources, like soy and quinoa, are also complete."
+  },
+  {
+    "question": "What is glycogen?",
+    "answer": "Glycogen is the stored form of glucose (carbohydrates) in the body. It is primarily stored in the liver and muscles and serves as the main fuel source for high-intensity exercise."
+  },
+  {
+    "question": "What are omega-3 fatty acids?",
+    "answer": "Omega-3 fatty acids are a type of polyunsaturated fat that is essential for health. They have strong anti-inflammatory properties and are beneficial for heart health, brain function, and joint health. They are found in fatty fish, walnuts, and flaxseeds."
+  },
+  {
+    "question": "What is dietary fiber?",
+    "answer": "Dietary fiber is a type of carbohydrate that the body cannot digest. It is important for digestive health, helps regulate blood sugar, and promotes feelings of fullness, which can aid in weight management. It is found in fruits, vegetables, and whole grains."
+  },
+  {
+    "question": "How do vitamins and minerals differ?",
+    "answer": "Vitamins are organic compounds made by plants and animals, while minerals are inorganic elements that originate from the earth. Both are essential micronutrients needed for the body to function properly."
+  },
+  {
+    "question": "What are antioxidants?",
+    "answer": "Antioxidants are compounds that can prevent or slow damage to cells caused by free radicals, which are unstable molecules the body produces as a reaction to environmental and other pressures. They are found in many fruits and vegetables."
+  },
+  {
+    "question": "What is the 'thermic effect of food' (TEF)?",
+    "answer": "TEF is the energy (calories) your body expends to digest, absorb, and metabolize the food you eat. Protein has the highest thermic effect, meaning your body burns more calories processing protein compared to carbs and fats."
+  },
+  {
+    "question": "How do I calculate my daily calorie needs?",
+    "answer": "You can estimate your daily calorie needs by first calculating your BMR (Basal Metabolic Rate) using a formula like the Mifflin-St Jeor equation, and then multiplying it by an activity factor based on how active you are. This gives you your TDEE (Total Daily Energy Expenditure)."
+  },
+  {
+    "question": "How accurate are calorie tracking apps?",
+    "answer": "Calorie tracking apps can be a very useful tool for managing your diet, but they are not perfectly accurate. The calorie counts for foods can be estimates, and it can be difficult to get portion sizes exactly right. They are best used as a guide to promote awareness."
+  },
+  {
+    "question": "What is the rotator cuff and how do I keep it healthy?",
+    "answer": "The rotator cuff is a group of four muscles and tendons that stabilize the shoulder joint. To keep it healthy, avoid ego lifting, perform specific strengthening exercises with light weight (internal and external rotations), and maintain good posture."
+  },
+  {
+    "question": "What is the difference between a neutral grip, pronated grip, and supinated grip?",
+    "answer": "A pronated grip is overhand (palms facing away). A supinated grip is underhand (palms facing you). A neutral grip is when palms face each other (like a hammer). Different grips can change the emphasis on certain muscles in an exercise."
+  },
+  {
+    "question": "Can exercise help with managing diabetes?",
+    "answer": "Yes, both aerobic and strength training are highly beneficial for managing type 2 diabetes. Exercise helps improve insulin sensitivity, control blood sugar levels, and reduce the risk of cardiovascular disease."
+  },
+  {
+    "question": "What is the glycemic index?",
+    "answer": "The glycemic index (GI) is a rating system for foods containing carbohydrates. It shows how quickly each food affects your blood sugar (glucose) level when that food is eaten on its own. Low-GI foods provide a slower, more sustained release of energy."
+  },
+  {
+    "question": "What are compound sets?",
+    "answer": "A compound set is performing two different exercises for the same muscle group back-to-back with no rest. For example, a set of bench press immediately followed by a set of dumbbell flyes. It's a high-intensity technique to increase training volume."
+  },
+  {
+    "question": "What is the function of the quadriceps muscles?",
+    "answer": "The quadriceps, located on the front of the thigh, are a group of four muscles primarily responsible for knee extension (straightening the leg). They are crucial for activities like walking, running, jumping, and squatting."
+  },
+  {
+    "question": "What is the function of the hamstring muscles?",
+    "answer": "The hamstrings, on the back of the thigh, are responsible for knee flexion (bending the knee) and hip extension (moving the leg backward). Strong hamstrings are vital for speed, power, and preventing knee injuries."
+  },
+  {
+    "question": "What is the function of the gluteal muscles?",
+    "answer": "The gluteal muscles (glutes) are a group of three muscles that make up the buttocks. Their primary functions are hip extension, abduction, and rotation. Strong glutes are essential for power, stability, and preventing lower back pain."
+  },
+  {
+    "question": "What is periodization in a training program?",
+    "answer": "Periodization is the long-term planning of a training program, typically broken into cycles (macro, meso, micro). It involves strategically varying volume and intensity over time to optimize performance for a specific goal and prevent overtraining."
+  },
+  {
+    "question": "What is linear periodization?",
+    "answer": "Linear periodization is a training model where volume gradually decreases while intensity gradually increases over time in a linear fashion. For example, over 12 weeks, you might go from sets of 10 reps to sets of 3 reps, with the weight getting heavier each phase."
+  },
+  {
+    "question": "What is undulating periodization?",
+    "answer": "Undulating periodization involves more frequent variations in volume and intensity. For example, within the same week, you might have a high-volume day, a high-intensity (heavy) day, and a recovery day for the same lifts. This can be effective for breaking plateaus."
+  },
+  {
+    "question": "What is the best way to track fitness progress?",
+    "answer": "The best way to track progress is to use multiple metrics. This can include a training log (tracking weight, reps, sets), body measurements (waist, hips), progress photos, and how you feel in terms of energy and strength. Don't rely solely on the scale."
+  },
+  {
+    "question": "What is the difference between free weights and bodyweight exercise?",
+    "answer": "Free weights (barbells, dumbbells) use external loads for resistance, which is easily measurable and scalable for progressive overload. Bodyweight exercises use your own weight for resistance and are excellent for building functional strength and can be progressed by changing leverage or adding reps."
+  },
+  {
+    "question": "What is a 'pump' during a workout?",
+    "answer": "The 'pump' is the temporary feeling of muscle fullness or tightness during a workout. It's caused by increased blood flow and fluid accumulating in the muscle cells (transient hypertrophy). While it feels good, it's not a direct indicator of muscle growth."
+  },
+  {
+    "question": "Should I train to failure?",
+    "answer": "Training to failure (performing reps until you can't do another one with good form) can be an effective tool for muscle growth, but it also creates a lot of fatigue. It should be used sparingly, typically on the last set of an isolation exercise, rather than on every set of every exercise."
+  },
+  {
+    "question": "What are 'Reps in Reserve' (RIR)?",
+    "answer": "Reps in Reserve (RIR) is a way to measure proximity to failure. An RIR of 2 means you stopped the set but could have done 2 more reps with good form. It's a method of autoregulating intensity to manage fatigue while still stimulating growth."
+  },
+  {
+    "question": "What is a 'cheat meal'?",
+    "answer": "A 'cheat meal' is a planned meal that deviates from your regular diet. It can provide a psychological break from strict eating and temporarily boost metabolism. It's best to plan them and enjoy them in moderation rather than having an unplanned binge."
+  },
+  {
+    "question": "What is the difference between a food allergy and a food intolerance?",
+    "answer": "A food allergy involves an immune system reaction that can be severe and life-threatening. A food intolerance is a digestive system issue, where the body has trouble breaking down a certain food, leading to symptoms like bloating, gas, or diarrhea. Lactose intolerance is a common example."
+  },
+  {
+    "question": "What is creatine loading?",
+    "answer": "Creatine loading is a phase where you take a higher dose of creatine (e.g., 20 grams per day, split into 4 doses) for 5-7 days to saturate your muscles quickly. After this, you drop to a maintenance dose of 3-5 grams per day. Loading is not necessary but can speed up the effects."
+  },
+  {
+    "question": "What is the purpose of a spotter in weightlifting?",
+    "answer": "A spotter's primary role is safety. They assist the lifter if they fail a repetition, preventing the weight from causing injury, especially in exercises like the bench press and squat. A good spotter also provides encouragement and feedback on form."
   }
 ]

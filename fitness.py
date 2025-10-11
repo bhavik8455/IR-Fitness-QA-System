@@ -286,6 +286,54 @@ class FAQIR:
         top_indices = np.argsort(overlap)[::-1][:top_k_terms]
         terms_scores = [(feature_names[i], float(overlap[i])) for i in top_indices if overlap[i] > 0]
         return terms_scores
+    
+    def expand_query_with_answer(self, original_query: str, answer_text: str, max_keywords: int = 10) -> str:
+        """Expand the original query with relevant keywords extracted from the answer text.
+        
+        Args:
+            original_query: The user's original search query
+            answer_text: The answer text to extract keywords from
+            max_keywords: Maximum number of keywords to add to the query
+            
+        Returns:
+            Expanded query string with original query + relevant keywords
+        """
+        if not answer_text or not original_query:
+            return original_query
+            
+        # Preprocess the answer text to extract meaningful terms
+        processed_answer = self.preprocessor.preprocess(answer_text)
+        
+        # Get TF-IDF scores for the answer text
+        answer_vec = self.vectorizer.transform([processed_answer]).toarray().flatten()
+        feature_names = np.array(self.vectorizer.get_feature_names_out())
+        
+        # Get top terms from the answer (excluding very common words)
+        # Sort by TF-IDF score and get top terms
+        top_indices = np.argsort(answer_vec)[::-1]
+        
+        # Extract meaningful keywords (filter out very short words and common terms)
+        expanded_keywords = []
+        original_words = set(original_query.lower().split())
+        
+        for idx in top_indices:
+            if answer_vec[idx] > 0:  # Only include terms that appear in the answer
+                term = feature_names[idx]
+                # Filter criteria: meaningful length, not already in query, not too common
+                if (len(term) > 2 and 
+                    term not in original_words and 
+                    answer_vec[idx] > 0.01):  # Threshold to avoid very common terms
+                    expanded_keywords.append(term)
+                    if len(expanded_keywords) >= max_keywords:
+                        break
+        
+        # Combine original query with expanded keywords
+        if expanded_keywords:
+            expanded_query = f"{original_query} {' '.join(expanded_keywords)}"
+        else:
+            expanded_query = original_query
+            
+        return expanded_query
 
 
 # --------------------------- Evaluation -------------------------------
@@ -372,31 +420,78 @@ def run_streamlit_app(ir_system: FAQIR) -> None:
 
     st.set_page_config(page_title="Fitness FAQ IR", layout="wide")
 
-    st.title("Fitness FAQ — IR Retrieval Demo")
+    st.title("Fitness FAQ — IR Retrieval Demo with Relevance Feedback")
     st.markdown(
         (
             "Enter a query (a word like `whey` or a full question). The system uses TF-IDF + cosine\n"
-            "similarity to retrieve the most relevant Q&A. This demo shows core IR building blocks:\n"
-            " preprocessing, indexing, query processing, ranking, and simple evaluation."
+            "similarity to retrieve the most relevant Q&A. Click 'Relevant' on any answer to expand your\n"
+            "query with keywords from that answer for better subsequent searches."
         )
     )
+
+    # Initialize session state for feedback tracking
+    if 'feedback_history' not in st.session_state:
+        st.session_state.feedback_history = []
+    if 'expanded_queries' not in st.session_state:
+        st.session_state.expanded_queries = {}
+    if 'current_query' not in st.session_state:
+        st.session_state.current_query = "whey protein isolate"
+    if 'last_search_results' not in st.session_state:
+        st.session_state.last_search_results = []
+    if 'last_search_query' not in st.session_state:
+        st.session_state.last_search_query = ""
 
     with st.sidebar:
         st.header("Controls")
         top_k = st.slider("Top N results", 1, 10, 5)
         show_explain = st.checkbox("Show explanation (overlapping terms)", value=True)
         sample_eval = st.checkbox("Run example evaluation", value=False)
+        
+        st.markdown("---")
+        st.subheader("Feedback History")
+        if st.session_state.feedback_history:
+            for i, feedback in enumerate(st.session_state.feedback_history[-5:]):  # Show last 5
+                st.text(f"{i+1}. Query: {feedback['query'][:30]}...")
+                st.text(f"   Answer: {feedback['answer'][:30]}...")
+                st.text(f"   Feedback: {'✅ Relevant' if feedback['relevant'] else '❌ Not Relevant'}")
+                st.text("")
+        else:
+            st.text("No feedback provided yet")
 
-    query = st.text_input("Type your query here", value="whey protein isolate")
+    # Query input with expanded query display
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        query = st.text_input("Type your query here", value=st.session_state.current_query)
+    with col2:
+        if st.button("Clear History"):
+            st.session_state.feedback_history = []
+            st.session_state.expanded_queries = {}
+            st.session_state.current_query = ""
+            st.session_state.last_search_results = []
+            st.session_state.last_search_query = ""
+            st.rerun()
 
     if st.button("Search") and query:
+        # Update current query in session state
+        st.session_state.current_query = query
+        
+        # Debug information
+        st.write(f"🔍 Searching for: '{query}'")
+        st.write(f"📊 Top K: {top_k}")
+        
         # First try normal search with threshold
         results = ir_system.search(query, top_n=top_k, fallback_threshold=0.01)
+        
+        # Debug: show number of results found
+        st.write(f"🔍 Initial search found: {len(results)} results")
         
         if not results:
             # Try with fuzzy search (threshold = 0.0)
             st.info("🔍 No exact matches found. Trying fuzzy search...")
             results = ir_system.search(query, top_n=top_k, fallback_threshold=0.0)
+            
+            # Debug: show fuzzy search results
+            st.write(f"🔍 Fuzzy search found: {len(results)} results")
             
             if not results:
                 # Still no results - show suggestions
@@ -410,8 +505,8 @@ def run_streamlit_app(ir_system: FAQIR) -> None:
                     for i, suggestion in enumerate(suggestions):
                         with suggestion_cols[i]:
                             if st.button(f"🔍 {suggestion}", key=f"suggest_{suggestion}"):
-                                st.session_state.query = suggestion
-                                st.experimental_rerun()
+                                st.session_state.current_query = suggestion
+                                st.rerun()
                 
                 # Show some random FAQs as suggestions
                 st.markdown("**📚 Here are some popular fitness topics:**")
@@ -420,21 +515,137 @@ def run_streamlit_app(ir_system: FAQIR) -> None:
                 for i, idx in enumerate(sample_indices):
                     with st.expander(f"💪 {ir_system.raw_questions[idx][:50]}..."):
                         st.write(ir_system.raw_answers[idx])
+                # Store empty results
+                st.session_state.last_search_results = []
+                st.session_state.last_search_query = query
             else:
                 st.info("🔍 Found some related results using fuzzy matching:")
+                # Store results in session state
+                st.session_state.last_search_results = results
+                st.session_state.last_search_query = query
         else:
             st.success(f"✅ Found {len(results)} results")
+            # Store results in session state
+            st.session_state.last_search_results = results
+            st.session_state.last_search_query = query
+            
+        # Debug: show final results count
+        st.write(f"🔍 Final results to display: {len(results)}")
             
         # Display results if any found
         if results:
             for rank, (idx, score, q_text, a_text) in enumerate(results, start=1):
                 st.subheader(f"{rank}. {q_text} (score: {score:.4f})")
                 st.write(a_text)
+                
+                # Feedback buttons
+                feedback_col1, feedback_col2, feedback_col3 = st.columns([1, 1, 3])
+                
+                with feedback_col1:
+                    if st.button(f"✅ Relevant", key=f"relevant_{rank}_{idx}"):
+                        # Expand query with keywords from this answer
+                        expanded_query = ir_system.expand_query_with_answer(query, a_text)
+                        
+                        # Store feedback in session state
+                        feedback_entry = {
+                            'query': query,
+                            'answer': a_text,
+                            'relevant': True,
+                            'expanded_query': expanded_query
+                        }
+                        st.session_state.feedback_history.append(feedback_entry)
+                        st.session_state.expanded_queries[query] = expanded_query
+                        st.session_state.current_query = expanded_query
+                        
+                        st.success(f"✅ Query expanded! New query: {expanded_query}")
+                        st.rerun()
+                
+                with feedback_col2:
+                    if st.button(f"❌ Not Relevant", key=f"not_relevant_{rank}_{idx}"):
+                        # Store negative feedback
+                        feedback_entry = {
+                            'query': query,
+                            'answer': a_text,
+                            'relevant': False,
+                            'expanded_query': None
+                        }
+                        st.session_state.feedback_history.append(feedback_entry)
+                        st.success("❌ Feedback recorded. This helps improve future searches.")
+                        st.rerun()
+                
+                with feedback_col3:
+                    st.write("")  # Empty space for alignment
+                
+                # Show expanded query if available
+                if query in st.session_state.expanded_queries:
+                    expanded = st.session_state.expanded_queries[query]
+                    if expanded != query:
+                        st.info(f"🔍 **Expanded Query:** {expanded}")
+                
                 if show_explain:
                     terms = ir_system.explain(query, idx, top_k_terms=5)
                     if terms:
                         st.markdown("**Top overlapping terms (query vs doc):**")
                         st.write(pd.DataFrame(terms, columns=["term", "overlap_score"]))
+
+    # Display stored results if they exist (for when user clicks feedback buttons)
+    elif st.session_state.last_search_results:
+        st.markdown("---")
+        st.subheader(f"📋 Previous Search Results for: '{st.session_state.last_search_query}'")
+        
+        for rank, (idx, score, q_text, a_text) in enumerate(st.session_state.last_search_results, start=1):
+            st.subheader(f"{rank}. {q_text} (score: {score:.4f})")
+            st.write(a_text)
+            
+            # Feedback buttons
+            feedback_col1, feedback_col2, feedback_col3 = st.columns([1, 1, 3])
+            
+            with feedback_col1:
+                if st.button(f"✅ Relevant", key=f"relevant_{rank}_{idx}"):
+                    # Expand query with keywords from this answer
+                    expanded_query = ir_system.expand_query_with_answer(st.session_state.last_search_query, a_text)
+                    
+                    # Store feedback in session state
+                    feedback_entry = {
+                        'query': st.session_state.last_search_query,
+                        'answer': a_text,
+                        'relevant': True,
+                        'expanded_query': expanded_query
+                    }
+                    st.session_state.feedback_history.append(feedback_entry)
+                    st.session_state.expanded_queries[st.session_state.last_search_query] = expanded_query
+                    st.session_state.current_query = expanded_query
+                    
+                    st.success(f"✅ Query expanded! New query: {expanded_query}")
+                    st.rerun()
+            
+            with feedback_col2:
+                if st.button(f"❌ Not Relevant", key=f"not_relevant_{rank}_{idx}"):
+                    # Store negative feedback
+                    feedback_entry = {
+                        'query': st.session_state.last_search_query,
+                        'answer': a_text,
+                        'relevant': False,
+                        'expanded_query': None
+                    }
+                    st.session_state.feedback_history.append(feedback_entry)
+                    st.success("❌ Feedback recorded. This helps improve future searches.")
+                    st.rerun()
+            
+            with feedback_col3:
+                st.write("")  # Empty space for alignment
+            
+            # Show expanded query if available
+            if st.session_state.last_search_query in st.session_state.expanded_queries:
+                expanded = st.session_state.expanded_queries[st.session_state.last_search_query]
+                if expanded != st.session_state.last_search_query:
+                    st.info(f"🔍 **Expanded Query:** {expanded}")
+            
+            if show_explain:
+                terms = ir_system.explain(st.session_state.last_search_query, idx, top_k_terms=5)
+                if terms:
+                    st.markdown("**Top overlapping terms (query vs doc):**")
+                    st.write(pd.DataFrame(terms, columns=["term", "overlap_score"]))
 
     st.markdown("---")
     st.subheader("Index statistics")
