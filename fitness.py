@@ -420,7 +420,7 @@ def run_streamlit_app(ir_system: FAQIR) -> None:
 
     st.set_page_config(page_title="Fitness FAQ IR", layout="wide")
 
-    st.title("Fitness FAQ — IR Retrieval Demo with Relevance Feedback")
+    st.title("Fitness FAQ — IR Retrieval  with Relevance Feedback")
     st.markdown(
         (
             "Enter a query (a word like `whey` or a full question). The system uses TF-IDF + cosine\n"
